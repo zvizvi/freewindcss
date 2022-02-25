@@ -1,0 +1,19 @@
+{
+  "name": "stylewindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zvizvi/stylewindcss.git"
+  },
+  "author": "zvizvi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zvizvi/stylewindcss/issues"
+  },
+  "homepage": "https://github.com/zvizvi/stylewindcss#readme"
+}
