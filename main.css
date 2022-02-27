@@ -1,0 +1,356 @@
+:root {
+  /* sizing and spacing */
+  --sw-0: 0;          /* 0px */
+  --sw-0.5: 0.125rem; /* 2px */
+  --sw-1: 0.25rem;    /* 4px */
+  --sw-1.5: 0.375rem; /* 6px */
+  --sw-2: 0.5rem;     /* 8px */
+  --sw-2.5: 0.625rem; /* 10px */
+  --sw-3: 0.75rem;    /* 12px */
+  --sw-3.5: 0.875rem; /* 14px */
+  --sw-4: 1rem;       /* 16px */
+  --sw-4.5: 1.125rem; /* 18px */
+  --sw-5: 1.25rem;    /* 20px */
+  --sw-6: 1.5rem;     /* 24px */
+  --sw-7: 1.75rem;    /* 28px */
+  --sw-8: 2rem;       /* 32px */
+  --sw-9: 2.25rem;    /* 36px */
+  --sw-10: 2.5rem;    /* 40px */
+  --sw-11: 2.75rem;   /* 44px */
+  --sw-12: 3rem;      /* 48px */
+  --sw-13: 3.25rem;   /* 52px */
+  --sw-14: 3.5rem;    /* 56px */
+  --sw-15: 3.75rem;   /* 60px */
+  --sw-16: 4rem;      /* 64px */
+  --sw-17: 4.25rem;   /* 68px */
+  --sw-18: 4.5rem;    /* 72px */
+  --sw-19: 4.75rem;   /* 76px */
+  --sw-20: 5rem;      /* 80px */
+  --sw-24: 6rem;      /* 96px */
+  --sw-28: 7rem;      /* 112px */
+  --sw-32: 8rem;      /* 128px */
+  --sw-36: 9rem;      /* 144px */
+  --sw-40: 10rem;     /* 160px */
+  --sw-44: 11rem;     /* 176px */
+  --sw-48: 12rem;     /* 192px */
+  --sw-52: 13rem;     /* 208px */
+  --sw-56: 14rem;     /* 224px */
+  --sw-60: 15rem;     /* 240px */
+  --sw-64: 16rem;     /* 256px */
+  --sw-72: 18rem;     /* 288px */
+  --sw-80: 20rem;     /* 320px */
+  --sw-96: 24rem;     /* 384px */
+
+  /* font family */
+  --sw-font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --sw-font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --sw-font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+  /* font sizes */
+  --sw-text-lg: 1.125rem;
+
+  /* font weight */
+  --sw-font-thin: 100;
+  --sw-font-extralight: 200;
+  --sw-font-light: 300;
+  --sw-font-normal: 400;
+  --sw-font-medium: 500;
+  --sw-font-semibold: 600;
+  --sw-font-bold: 700;
+  --sw-font-extrabold: 800;
+  --sw-font-black: 900;
+
+  /* letter spacing */
+  --sw-tracking-tighter: -0.05em;
+  --sw-tracking-tight: -0.025em;
+  --sw-tracking-normal: 0;
+  --sw-tracking-wide: 0.025em;
+  --sw-tracking-wider: 0.05em;
+  --sw-tracking-widest: 0.1em;
+
+  /* line height */
+  --sw-leading-3: 0.75rem; /* 12px */
+  --sw-leading-4: 1rem; /* 16px */
+  --sw-leading-5: 1.25rem; /* 20px */
+  --sw-leading-6: 1.5rem; /* 24px */
+  --sw-leading-7: 1.75rem; /* 28px */
+  --sw-leading-8: 2rem; /* 32px */
+  --sw-leading-9: 2.25rem; /* 36px */
+  --sw-leading-10: 2.5rem; /* 40px */
+  --sw-leading-none: 1;
+  --sw-leading-tight: 1.25;
+  --sw-leading-snug: 1.375;
+  --sw-leading-normal: 1.5;
+  --sw-leading-relaxed: 1.625;
+  --sw-leading-loose: 2;
+
+  /* border radius */
+  --sw-rounded-none: 0px;
+  --sw-rounded-sm: 0.125rem; /* 2px */
+  --sw-rounded: 0.25rem; /* 4px */
+  --sw-rounded-md: 0.375rem; /* 6px */
+  --sw-rounded-lg: 0.5rem; /* 8px */
+  --sw-rounded-xl: 0.75rem; /* 12px */
+  --sw-rounded-2xl: 1rem; /* 16px */
+  --sw-rounded-3xl: 1.5rem; /* 24px */
+  --sw-rounded-full: 9999px;
+
+  /* box shadow */
+  --sw-shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --sw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --sw-shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --sw-shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --sw-shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --sw-shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --sw-shadow-inner: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+  --sw-shadow-none: 0 0 #0000;
+
+  /* filter blur/backdrop-blur */
+  --sw-blur-none: blur(0);
+  --sw-blur-sm: blur(4px);
+  --sw-blur: blur(8px);
+  --sw-blur-md: blur(12px);
+  --sw-blur-lg: blur(16px);
+  --sw-blur-xl: blur(24px);
+  --sw-blur-2xl: blur(40px);
+  --sw-blur-3xl: blur(64px);
+
+  /* filter drop-shadow */
+  --sw-drop-shadow-sm: drop-shadow(0 1px 1px rgb(0 0 0 / 0.05));
+  --sw-drop-shadow: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06));
+  --sw-drop-shadow-md: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+  --sw-drop-shadow-lg: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+  --sw-drop-shadow-xl: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
+  --sw-drop-shadow-2xl: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
+  --sw-drop-shadow-none: drop-shadow(0 0 #0000);
+
+  /* transition timing */
+  --sw-ease-linear: linear;
+  --sw-ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --sw-ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --sw-ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* colors */
+  --sw-black:       rgb(0 0 0);
+  --sw-white:       rgb(255 255 255);
+  --sw-slate-50:    rgb(248 250 252);
+  --sw-slate-100:   rgb(241 245 249);
+  --sw-slate-200:   rgb(226 232 240);
+  --sw-slate-300:   rgb(203 213 225);
+  --sw-slate-400:   rgb(148 163 184);
+  --sw-slate-500:   rgb(100 116 139);
+  --sw-slate-600:   rgb(71 85 105);
+  --sw-slate-700:   rgb(51 65 85);
+  --sw-slate-800:   rgb(30 41 59);
+  --sw-slate-900:   rgb(15 23 42);
+  --sw-gray-50:     rgb(249 250 251);
+  --sw-gray-100:    rgb(243 244 246);
+  --sw-gray-200:    rgb(229 231 235);
+  --sw-gray-300:    rgb(209 213 219);
+  --sw-gray-400:    rgb(156 163 175);
+  --sw-gray-500:    rgb(107 114 128);
+  --sw-gray-600:    rgb(75 85 99);
+  --sw-gray-700:    rgb(55 65 81);
+  --sw-gray-800:    rgb(31 41 55);
+  --sw-gray-900:    rgb(17 24 39);
+  --sw-zinc-50:     rgb(250 250 250);
+  --sw-zinc-100:    rgb(244 244 245);
+  --sw-zinc-200:    rgb(228 228 231);
+  --sw-zinc-300:    rgb(212 212 216);
+  --sw-zinc-400:    rgb(161 161 170);
+  --sw-zinc-500:    rgb(113 113 122);
+  --sw-zinc-600:    rgb(82 82 91);
+  --sw-zinc-700:    rgb(63 63 70);
+  --sw-zinc-800:    rgb(39 39 42);
+  --sw-zinc-900:    rgb(24 24 27);
+  --sw-neutral-50:  rgb(250 250 250);
+  --sw-neutral-100: rgb(245 245 245);
+  --sw-neutral-200: rgb(229 229 229);
+  --sw-neutral-300: rgb(212 212 212);
+  --sw-neutral-400: rgb(163 163 163);
+  --sw-neutral-500: rgb(115 115 115);
+  --sw-neutral-600: rgb(82 82 82);
+  --sw-neutral-700: rgb(64 64 64);
+  --sw-neutral-800: rgb(38 38 38);
+  --sw-neutral-900: rgb(23 23 23);
+  --sw-stone-50:    rgb(250 250 249);
+  --sw-stone-100:   rgb(245 245 244);
+  --sw-stone-200:   rgb(231 229 228);
+  --sw-stone-300:   rgb(214 211 209);
+  --sw-stone-400:   rgb(168 162 158);
+  --sw-stone-500:   rgb(120 113 108);
+  --sw-stone-600:   rgb(87 83 78);
+  --sw-stone-700:   rgb(68 64 60);
+  --sw-stone-800:   rgb(41 37 36);
+  --sw-stone-900:   rgb(28 25 23);
+  --sw-red-50:      rgb(254 242 242);
+  --sw-red-100:     rgb(254 226 226);
+  --sw-red-200:     rgb(254 202 202);
+  --sw-red-300:     rgb(252 165 165);
+  --sw-red-400:     rgb(248 113 113);
+  --sw-red-500:     rgb(239 68 68);
+  --sw-red-600:     rgb(220 38 38);
+  --sw-red-700:     rgb(185 28 28);
+  --sw-red-800:     rgb(153 27 27);
+  --sw-red-900:     rgb(127 29 29);
+  --sw-orange-50:   rgb(255 247 237);
+  --sw-orange-100:  rgb(255 237 213);
+  --sw-orange-200:  rgb(254 215 170);
+  --sw-orange-300:  rgb(253 186 116);
+  --sw-orange-400:  rgb(251 146 60);
+  --sw-orange-500:  rgb(249 115 22);
+  --sw-orange-600:  rgb(234 88 12);
+  --sw-orange-700:  rgb(194 65 12);
+  --sw-orange-800:  rgb(154 52 18);
+  --sw-orange-900:  rgb(124 45 18);
+  --sw-amber-50:    rgb(255 251 235);
+  --sw-amber-100:   rgb(254 243 199);
+  --sw-amber-200:   rgb(253 230 138);
+  --sw-amber-300:   rgb(252 211 77);
+  --sw-amber-400:   rgb(251 191 36);
+  --sw-amber-500:   rgb(245 158 11);
+  --sw-amber-600:   rgb(217 119 6);
+  --sw-amber-700:   rgb(180 83 9);
+  --sw-amber-800:   rgb(146 64 14);
+  --sw-amber-900:   rgb(120 53 15);
+  --sw-yellow-50:   rgb(254 252 232);
+  --sw-yellow-100:  rgb(254 249 195);
+  --sw-yellow-200:  rgb(254 240 138);
+  --sw-yellow-300:  rgb(253 224 71);
+  --sw-yellow-400:  rgb(250 204 21);
+  --sw-yellow-500:  rgb(234 179 8);
+  --sw-yellow-600:  rgb(202 138 4);
+  --sw-yellow-700:  rgb(161 98 7);
+  --sw-yellow-800:  rgb(133 77 14);
+  --sw-yellow-900:  rgb(113 63 18);
+  --sw-lime-50:     rgb(247 254 231);
+  --sw-lime-100:    rgb(236 252 203);
+  --sw-lime-200:    rgb(217 249 157);
+  --sw-lime-300:    rgb(190 242 100);
+  --sw-lime-400:    rgb(163 230 53);
+  --sw-lime-500:    rgb(132 204 22);
+  --sw-lime-600:    rgb(101 163 13);
+  --sw-lime-700:    rgb(77 124 15);
+  --sw-lime-800:    rgb(63 98 18);
+  --sw-lime-900:    rgb(54 83 20);
+  --sw-green-50:    rgb(240 253 244);
+  --sw-green-100:   rgb(220 252 231);
+  --sw-green-200:   rgb(187 247 208);
+  --sw-green-300:   rgb(134 239 172);
+  --sw-green-400:   rgb(74 222 128);
+  --sw-green-500:   rgb(34 197 94);
+  --sw-green-600:   rgb(22 163 74);
+  --sw-green-700:   rgb(21 128 61);
+  --sw-green-800:   rgb(22 101 52);
+  --sw-green-900:   rgb(20 83 45);
+  --sw-emerald-50:  rgb(236 253 245);
+  --sw-emerald-100: rgb(209 250 229);
+  --sw-emerald-200: rgb(167 243 208);
+  --sw-emerald-300: rgb(110 231 183);
+  --sw-emerald-400: rgb(52 211 153);
+  --sw-emerald-500: rgb(16 185 129);
+  --sw-emerald-600: rgb(5 150 105);
+  --sw-emerald-700: rgb(4 120 87);
+  --sw-emerald-800: rgb(6 95 70);
+  --sw-emerald-900: rgb(6 78 59);
+  --sw-teal-50:     rgb(240 253 250);
+  --sw-teal-100:    rgb(204 251 241);
+  --sw-teal-200:    rgb(153 246 228);
+  --sw-teal-300:    rgb(94 234 212);
+  --sw-teal-400:    rgb(45 212 191);
+  --sw-teal-500:    rgb(20 184 166);
+  --sw-teal-600:    rgb(13 148 136);
+  --sw-teal-700:    rgb(15 118 110);
+  --sw-teal-800:    rgb(17 94 89);
+  --sw-teal-900:    rgb(19 78 74);
+  --sw-cyan-50:     rgb(236 254 255);
+  --sw-cyan-100:    rgb(207 250 254);
+  --sw-cyan-200:    rgb(165 243 252);
+  --sw-cyan-300:    rgb(103 232 249);
+  --sw-cyan-400:    rgb(34 211 238);
+  --sw-cyan-500:    rgb(6 182 212);
+  --sw-cyan-600:    rgb(8 145 178);
+  --sw-cyan-700:    rgb(14 116 144);
+  --sw-cyan-800:    rgb(21 94 117);
+  --sw-cyan-900:    rgb(22 78 99);
+  --sw-sky-50:      rgb(240 249 255);
+  --sw-sky-100:     rgb(224 242 254);
+  --sw-sky-200:     rgb(186 230 253);
+  --sw-sky-300:     rgb(125 211 252);
+  --sw-sky-400:     rgb(56 189 248);
+  --sw-sky-500:     rgb(14 165 233);
+  --sw-sky-600:     rgb(2 132 199);
+  --sw-sky-700:     rgb(3 105 161);
+  --sw-sky-800:     rgb(7 89 133);
+  --sw-sky-900:     rgb(12 74 110);
+  --sw-blue-50:     rgb(239 246 255);
+  --sw-blue-100:    rgb(219 234 254);
+  --sw-blue-200:    rgb(191 219 254);
+  --sw-blue-300:    rgb(147 197 253);
+  --sw-blue-400:    rgb(96 165 250);
+  --sw-blue-500:    rgb(59 130 246);
+  --sw-blue-600:    rgb(37 99 235);
+  --sw-blue-700:    rgb(29 78 216);
+  --sw-blue-800:    rgb(30 64 175);
+  --sw-blue-900:    rgb(30 58 138);
+  --sw-indigo-50:   rgb(238 242 255);
+  --sw-indigo-100:  rgb(224 231 255);
+  --sw-indigo-200:  rgb(199 210 254);
+  --sw-indigo-300:  rgb(165 180 252);
+  --sw-indigo-400:  rgb(129 140 248);
+  --sw-indigo-500:  rgb(99 102 241);
+  --sw-indigo-600:  rgb(79 70 229);
+  --sw-indigo-700:  rgb(67 56 202);
+  --sw-indigo-800:  rgb(55 48 163);
+  --sw-indigo-900:  rgb(49 46 129);
+  --sw-violet-50:   rgb(245 243 255);
+  --sw-violet-100:  rgb(237 233 254);
+  --sw-violet-200:  rgb(221 214 254);
+  --sw-violet-300:  rgb(196 181 253);
+  --sw-violet-400:  rgb(167 139 250);
+  --sw-violet-500:  rgb(139 92 246);
+  --sw-violet-600:  rgb(124 58 237);
+  --sw-violet-700:  rgb(109 40 217);
+  --sw-violet-800:  rgb(91 33 182);
+  --sw-violet-900:  rgb(76 29 149);
+  --sw-purple-50:   rgb(250 245 255);
+  --sw-purple-100:  rgb(243 232 255);
+  --sw-purple-200:  rgb(233 213 255);
+  --sw-purple-300:  rgb(216 180 254);
+  --sw-purple-400:  rgb(192 132 252);
+  --sw-purple-500:  rgb(168 85 247);
+  --sw-purple-600:  rgb(147 51 234);
+  --sw-purple-700:  rgb(126 34 206);
+  --sw-purple-800:  rgb(107 33 168);
+  --sw-purple-900:  rgb(88 28 135);
+  --sw-fuchsia-50:  rgb(253 244 255);
+  --sw-fuchsia-100: rgb(250 232 255);
+  --sw-fuchsia-200: rgb(245 208 254);
+  --sw-fuchsia-300: rgb(240 171 252);
+  --sw-fuchsia-400: rgb(232 121 249);
+  --sw-fuchsia-500: rgb(217 70 239);
+  --sw-fuchsia-600: rgb(192 38 211);
+  --sw-fuchsia-700: rgb(162 28 175);
+  --sw-fuchsia-800: rgb(134 25 143);
+  --sw-fuchsia-900: rgb(112 26 117);
+  --sw-pink-50:     rgb(253 242 248);
+  --sw-pink-100:    rgb(252 231 243);
+  --sw-pink-200:    rgb(251 207 232);
+  --sw-pink-300:    rgb(249 168 212);
+  --sw-pink-400:    rgb(244 114 182);
+  --sw-pink-500:    rgb(236 72 153);
+  --sw-pink-600:    rgb(219 39 119);
+  --sw-pink-700:    rgb(190 24 93);
+  --sw-pink-800:    rgb(157 23 77);
+  --sw-pink-900:    rgb(131 24 67);
+  --sw-rose-50:     rgb(255 241 242);
+  --sw-rose-100:    rgb(255 228 230);
+  --sw-rose-200:    rgb(254 205 211);
+  --sw-rose-300:    rgb(253 164 175);
+  --sw-rose-400:    rgb(251 113 133);
+  --sw-rose-500:    rgb(244 63 94);
+  --sw-rose-600:    rgb(225 29 72);
+  --sw-rose-700:    rgb(190 18 60);
+  --sw-rose-800:    rgb(159 18 57);
+  --sw-rose-900:    rgb(136 19 55);
+}
