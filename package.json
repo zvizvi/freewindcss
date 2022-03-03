@@ -1,6 +1,6 @@
 {
-  "name": "stylewindcss",
-  "version": "0.0.1",
+  "name": "freewindcss",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zvizvi/stylewindcss.git"
+    "url": "git+https://github.com/zvizvi/freewindcss.git"
   },
   "author": "zvizvi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zvizvi/stylewindcss/issues"
+    "url": "https://github.com/zvizvi/freewindcss/issues"
   },
-  "homepage": "https://github.com/zvizvi/stylewindcss#readme"
+  "homepage": "https://github.com/zvizvi/freewindcss#readme"
 }
