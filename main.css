@@ -1,6 +1,6 @@
 /*!
  * Freewind CSS - https://github.com/zvizvi/freewindcss
- * Version - 0.0.2
+ * Version - 0.0.3
  * MIT License
  * (c) zvizvi
  */
@@ -54,7 +54,16 @@
   --fw-font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
   /* font sizes */
+  --fw-text-xs: 0.75rem;
+  --fw-text-sm: 0.875rem;
+  --fw-text-base: 1rem;
   --fw-text-lg: 1.125rem;
+  --fw-text-xl: 1.25rem;
+  --fw-text-2xl: 1.5rem;
+  --fw-text-3xl: 1.875rem;
+  --fw-text-4xl: 2.25rem;
+  --fw-text-5xl: 3rem;
+  --fw-text-6xl: 4rem;
 
   /* font weight */
   --fw-font-thin: 100;
