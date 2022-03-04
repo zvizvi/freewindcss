@@ -1,8 +1,11 @@
 {
   "name": "freewindcss",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Use Tailwind's set values and units without installing Tailwind",
-  "main": "main.css",
+  "main": "lib/freewindcss.min.css",
+  "scripts": {
+    "build": "sass --style expanded src/freewindcss.scss lib/freewindcss.css && sass --style compressed src/freewindcss.scss lib/freewindcss.min.css"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zvizvi/freewindcss.git"
@@ -12,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/zvizvi/freewindcss/issues"
   },
-  "homepage": "https://github.com/zvizvi/freewindcss#readme"
+  "homepage": "https://github.com/zvizvi/freewindcss#readme",
+  "devDependencies": {
+    "sass": "^1.49.9"
+  }
 }
