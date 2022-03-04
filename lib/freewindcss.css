@@ -1,4 +1,11 @@
-/*! Freewind CSS | v0.0.4 | MIT License | (c) zvizvi | https://github.com/zvizvi/freewindcss */
+/*!
+  * Freewindcss v0.0.4
+  * https://github.com/zvizvi/freewindcss#readme
+  *
+  * Copyright (c) 2022 zvizvi
+  * Licensed under the MIT license
+ */
+
 :root {
   /* sizing and spacing */
   --fw-0: 0;

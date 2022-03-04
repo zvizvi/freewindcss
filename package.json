@@ -4,7 +4,7 @@
   "description": "Use Tailwind's set values and units without installing Tailwind",
   "main": "lib/freewindcss.min.css",
   "scripts": {
-    "build": "sass --style expanded src/freewindcss.scss lib/freewindcss.css && sass --style compressed src/freewindcss.scss lib/freewindcss.min.css"
+    "build": "sass --style expanded src/freewindcss.scss lib/freewindcss.css && sass --style compressed src/freewindcss.scss lib/freewindcss.min.css && banner-cli lib/*.css"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/zvizvi/freewindcss#readme",
   "devDependencies": {
+    "banner-cli": "^0.14.3",
     "sass": "^1.49.9"
   }
 }
