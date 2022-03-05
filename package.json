@@ -1,6 +1,6 @@
 {
   "name": "freewindcss",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Use Tailwind's set values and units without installing Tailwind",
   "main": "lib/freewindcss.min.css",
   "scripts": {
