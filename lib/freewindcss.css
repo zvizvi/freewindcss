@@ -1,5 +1,5 @@
 /*!
-  * Freewindcss v0.0.5
+  * Freewindcss v0.0.6
   * https://github.com/zvizvi/freewindcss#readme
   *
   * Copyright (c) 2022 zvizvi
@@ -9,6 +9,7 @@
 :root {
   /* sizing and spacing */
   --fw-full: 100%;
+  --fw-auto: auto;
   --fw-0: 0;
   --fw-0\5 : 0.125rem;
   --fw-1: 0.25rem;
@@ -137,6 +138,20 @@
   --fw-ease-in: cubic-bezier(0.4, 0, 1, 1);
   --fw-ease-out: cubic-bezier(0, 0, 0.2, 1);
   --fw-ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  /* columns */
+  --fw-columns-3xs: 16rem;
+  --fw-columns-2xs: 18rem;
+  --fw-columns-xs: 20rem;
+  --fw-columns-sm: 24rem;
+  --fw-columns-md: 28rem;
+  --fw-columns-lg: 32rem;
+  --fw-columns-xl: 36rem;
+  --fw-columns-2xl: 42rem;
+  --fw-columns-3xl: 48rem;
+  --fw-columns-4xl: 56rem;
+  --fw-columns-5xl: 64rem;
+  --fw-columns-6xl: 72rem;
+  --fw-columns-7xl: 80rem;
   /* colors */
   --fw-color-opacity: 1;
   --fw-black: rgb(0 0 0 / var(--fw-color-opacity));
@@ -361,6 +376,44 @@
   --fw-rose-700: rgb(190 18 60 / var(--fw-color-opacity));
   --fw-rose-800: rgb(159 18 57 / var(--fw-color-opacity));
   --fw-rose-900: rgb(136 19 55 / var(--fw-color-opacity));
+  /* animation */
+  --fw-animation-spin: fw-spin 1s linear infinite;
+  --fw-animation-ping: fw-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+  --fw-animation-pulse: fw-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --fw-animation-bounce: fw-bounce 1s infinite;
+}
+
+@keyframes fw-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes fw-ping {
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+@keyframes fw-pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+@keyframes fw-bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
 }
 
 /*# sourceMappingURL=freewindcss.css.map */
