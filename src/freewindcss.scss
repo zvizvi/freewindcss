@@ -147,6 +147,21 @@
   --fw-ease-out: cubic-bezier(0, 0, 0.2, 1);
   --fw-ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
 
+  /* columns */
+  --fw-columns-3xs: 16rem; // 256px
+  --fw-columns-2xs: 18rem; // 288px
+  --fw-columns-xs: 20rem;  // 320px
+  --fw-columns-sm: 24rem;  // 384px
+  --fw-columns-md: 28rem;  // 448px
+  --fw-columns-lg: 32rem;  // 512px
+  --fw-columns-xl: 36rem;  // 576px
+  --fw-columns-2xl: 42rem; // 672px
+  --fw-columns-3xl: 48rem; // 768px
+  --fw-columns-4xl: 56rem; // 896px
+  --fw-columns-5xl: 64rem; // 1024px
+  --fw-columns-6xl: 72rem; // 1152px
+  --fw-columns-7xl: 80rem; // 1280px
+
   /* colors */
   --fw-color-opacity: 1;
   //
