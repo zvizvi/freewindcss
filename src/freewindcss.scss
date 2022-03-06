@@ -7,6 +7,7 @@
 :root {
   /* sizing and spacing */
   --fw-full: 100%;    // 100%
+  --fw-auto: auto;    // auto
   --fw-0: 0;          // 0px
   --fw-0\5: 0.125rem; // 2px
   --fw-1: 0.25rem;    // 4px
@@ -101,7 +102,7 @@
   --fw-leading-loose: 2;
 
   /* border radius */
-  --fw-rounded-none: 0px;
+  --fw-rounded-none: 0px;    // 0px
   --fw-rounded-sm: 0.125rem; // 2px
   --fw-rounded: 0.25rem;     // 4px
   --fw-rounded-md: 0.375rem; // 6px
@@ -109,7 +110,7 @@
   --fw-rounded-xl: 0.75rem;  // 12px
   --fw-rounded-2xl: 1rem;    // 16px
   --fw-rounded-3xl: 1.5rem;  // 24px
-  --fw-rounded-full: 9999px;
+  --fw-rounded-full: 9999px; // 9999px
 
   /* box shadow */
   --fw-shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
@@ -148,227 +149,227 @@
 
   /* colors */
   --fw-color-opacity: 1;
-
-  --fw-black:       rgb(0 0 0       / var(--fw-color-opacity));
-  --fw-white:       rgb(255 255 255 / var(--fw-color-opacity));
-  --fw-slate-50:    rgb(248 250 252 / var(--fw-color-opacity));
-  --fw-slate-100:   rgb(241 245 249 / var(--fw-color-opacity));
-  --fw-slate-200:   rgb(226 232 240 / var(--fw-color-opacity));
-  --fw-slate-300:   rgb(203 213 225 / var(--fw-color-opacity));
-  --fw-slate-400:   rgb(148 163 184 / var(--fw-color-opacity));
-  --fw-slate-500:   rgb(100 116 139 / var(--fw-color-opacity));
-  --fw-slate-600:   rgb(71 85 105   / var(--fw-color-opacity));
-  --fw-slate-700:   rgb(51 65 85    / var(--fw-color-opacity));
-  --fw-slate-800:   rgb(30 41 59    / var(--fw-color-opacity));
-  --fw-slate-900:   rgb(15 23 42    / var(--fw-color-opacity));
-  --fw-gray-50:     rgb(249 250 251 / var(--fw-color-opacity));
-  --fw-gray-100:    rgb(243 244 246 / var(--fw-color-opacity));
-  --fw-gray-200:    rgb(229 231 235 / var(--fw-color-opacity));
-  --fw-gray-300:    rgb(209 213 219 / var(--fw-color-opacity));
-  --fw-gray-400:    rgb(156 163 175 / var(--fw-color-opacity));
-  --fw-gray-500:    rgb(107 114 128 / var(--fw-color-opacity));
-  --fw-gray-600:    rgb(75 85 99    / var(--fw-color-opacity));
-  --fw-gray-700:    rgb(55 65 81    / var(--fw-color-opacity));
-  --fw-gray-800:    rgb(31 41 55    / var(--fw-color-opacity));
-  --fw-gray-900:    rgb(17 24 39    / var(--fw-color-opacity));
-  --fw-zinc-50:     rgb(250 250 250 / var(--fw-color-opacity));
-  --fw-zinc-100:    rgb(244 244 245 / var(--fw-color-opacity));
-  --fw-zinc-200:    rgb(228 228 231 / var(--fw-color-opacity));
-  --fw-zinc-300:    rgb(212 212 216 / var(--fw-color-opacity));
-  --fw-zinc-400:    rgb(161 161 170 / var(--fw-color-opacity));
-  --fw-zinc-500:    rgb(113 113 122 / var(--fw-color-opacity));
-  --fw-zinc-600:    rgb(82 82 91    / var(--fw-color-opacity));
-  --fw-zinc-700:    rgb(63 63 70    / var(--fw-color-opacity));
-  --fw-zinc-800:    rgb(39 39 42    / var(--fw-color-opacity));
-  --fw-zinc-900:    rgb(24 24 27    / var(--fw-color-opacity));
-  --fw-neutral-50:  rgb(250 250 250 / var(--fw-color-opacity));
-  --fw-neutral-100: rgb(245 245 245 / var(--fw-color-opacity));
-  --fw-neutral-200: rgb(229 229 229 / var(--fw-color-opacity));
-  --fw-neutral-300: rgb(212 212 212 / var(--fw-color-opacity));
-  --fw-neutral-400: rgb(163 163 163 / var(--fw-color-opacity));
-  --fw-neutral-500: rgb(115 115 115 / var(--fw-color-opacity));
-  --fw-neutral-600: rgb(82 82 82    / var(--fw-color-opacity));
-  --fw-neutral-700: rgb(64 64 64    / var(--fw-color-opacity));
-  --fw-neutral-800: rgb(38 38 38    / var(--fw-color-opacity));
-  --fw-neutral-900: rgb(23 23 23    / var(--fw-color-opacity));
-  --fw-stone-50:    rgb(250 250 249 / var(--fw-color-opacity));
-  --fw-stone-100:   rgb(245 245 244 / var(--fw-color-opacity));
-  --fw-stone-200:   rgb(231 229 228 / var(--fw-color-opacity));
-  --fw-stone-300:   rgb(214 211 209 / var(--fw-color-opacity));
-  --fw-stone-400:   rgb(168 162 158 / var(--fw-color-opacity));
-  --fw-stone-500:   rgb(120 113 108 / var(--fw-color-opacity));
-  --fw-stone-600:   rgb(87 83 78    / var(--fw-color-opacity));
-  --fw-stone-700:   rgb(68 64 60    / var(--fw-color-opacity));
-  --fw-stone-800:   rgb(41 37 36    / var(--fw-color-opacity));
-  --fw-stone-900:   rgb(28 25 23    / var(--fw-color-opacity));
-  --fw-red-50:      rgb(254 242 242 / var(--fw-color-opacity));
-  --fw-red-100:     rgb(254 226 226 / var(--fw-color-opacity));
-  --fw-red-200:     rgb(254 202 202 / var(--fw-color-opacity));
-  --fw-red-300:     rgb(252 165 165 / var(--fw-color-opacity));
-  --fw-red-400:     rgb(248 113 113 / var(--fw-color-opacity));
-  --fw-red-500:     rgb(239 68 68   / var(--fw-color-opacity));
-  --fw-red-600:     rgb(220 38 38   / var(--fw-color-opacity));
-  --fw-red-700:     rgb(185 28 28   / var(--fw-color-opacity));
-  --fw-red-800:     rgb(153 27 27   / var(--fw-color-opacity));
-  --fw-red-900:     rgb(127 29 29   / var(--fw-color-opacity));
-  --fw-orange-50:   rgb(255 247 237 / var(--fw-color-opacity));
-  --fw-orange-100:  rgb(255 237 213 / var(--fw-color-opacity));
-  --fw-orange-200:  rgb(254 215 170 / var(--fw-color-opacity));
-  --fw-orange-300:  rgb(253 186 116 / var(--fw-color-opacity));
-  --fw-orange-400:  rgb(251 146 60  / var(--fw-color-opacity));
-  --fw-orange-500:  rgb(249 115 22  / var(--fw-color-opacity));
-  --fw-orange-600:  rgb(234 88 12   / var(--fw-color-opacity));
-  --fw-orange-700:  rgb(194 65 12   / var(--fw-color-opacity));
-  --fw-orange-800:  rgb(154 52 18   / var(--fw-color-opacity));
-  --fw-orange-900:  rgb(124 45 18   / var(--fw-color-opacity));
-  --fw-amber-50:    rgb(255 251 235 / var(--fw-color-opacity));
-  --fw-amber-100:   rgb(254 243 199 / var(--fw-color-opacity));
-  --fw-amber-200:   rgb(253 230 138 / var(--fw-color-opacity));
-  --fw-amber-300:   rgb(252 211 77  / var(--fw-color-opacity));
-  --fw-amber-400:   rgb(251 191 36  / var(--fw-color-opacity));
-  --fw-amber-500:   rgb(245 158 11  / var(--fw-color-opacity));
-  --fw-amber-600:   rgb(217 119 6   / var(--fw-color-opacity));
-  --fw-amber-700:   rgb(180 83 9    / var(--fw-color-opacity));
-  --fw-amber-800:   rgb(146 64 14   / var(--fw-color-opacity));
-  --fw-amber-900:   rgb(120 53 15   / var(--fw-color-opacity));
-  --fw-yellow-50:   rgb(254 252 232 / var(--fw-color-opacity));
-  --fw-yellow-100:  rgb(254 249 195 / var(--fw-color-opacity));
-  --fw-yellow-200:  rgb(254 240 138 / var(--fw-color-opacity));
-  --fw-yellow-300:  rgb(253 224 71  / var(--fw-color-opacity));
-  --fw-yellow-400:  rgb(250 204 21  / var(--fw-color-opacity));
-  --fw-yellow-500:  rgb(234 179 8   / var(--fw-color-opacity));
-  --fw-yellow-600:  rgb(202 138 4   / var(--fw-color-opacity));
-  --fw-yellow-700:  rgb(161 98 7    / var(--fw-color-opacity));
-  --fw-yellow-800:  rgb(133 77 14   / var(--fw-color-opacity));
-  --fw-yellow-900:  rgb(113 63 18   / var(--fw-color-opacity));
-  --fw-lime-50:     rgb(247 254 231 / var(--fw-color-opacity));
-  --fw-lime-100:    rgb(236 252 203 / var(--fw-color-opacity));
-  --fw-lime-200:    rgb(217 249 157 / var(--fw-color-opacity));
-  --fw-lime-300:    rgb(190 242 100 / var(--fw-color-opacity));
-  --fw-lime-400:    rgb(163 230 53  / var(--fw-color-opacity));
-  --fw-lime-500:    rgb(132 204 22  / var(--fw-color-opacity));
-  --fw-lime-600:    rgb(101 163 13  / var(--fw-color-opacity));
-  --fw-lime-700:    rgb(77 124 15   / var(--fw-color-opacity));
-  --fw-lime-800:    rgb(63 98 18    / var(--fw-color-opacity));
-  --fw-lime-900:    rgb(54 83 20    / var(--fw-color-opacity));
-  --fw-green-50:    rgb(240 253 244 / var(--fw-color-opacity));
-  --fw-green-100:   rgb(220 252 231 / var(--fw-color-opacity));
-  --fw-green-200:   rgb(187 247 208 / var(--fw-color-opacity));
-  --fw-green-300:   rgb(134 239 172 / var(--fw-color-opacity));
-  --fw-green-400:   rgb(74 222 128  / var(--fw-color-opacity));
-  --fw-green-500:   rgb(34 197 94   / var(--fw-color-opacity));
-  --fw-green-600:   rgb(22 163 74   / var(--fw-color-opacity));
-  --fw-green-700:   rgb(21 128 61   / var(--fw-color-opacity));
-  --fw-green-800:   rgb(22 101 52   / var(--fw-color-opacity));
-  --fw-green-900:   rgb(20 83 45    / var(--fw-color-opacity));
-  --fw-emerald-50:  rgb(236 253 245 / var(--fw-color-opacity));
-  --fw-emerald-100: rgb(209 250 229 / var(--fw-color-opacity));
-  --fw-emerald-200: rgb(167 243 208 / var(--fw-color-opacity));
-  --fw-emerald-300: rgb(110 231 183 / var(--fw-color-opacity));
-  --fw-emerald-400: rgb(52 211 153  / var(--fw-color-opacity));
-  --fw-emerald-500: rgb(16 185 129  / var(--fw-color-opacity));
-  --fw-emerald-600: rgb(5 150 105   / var(--fw-color-opacity));
-  --fw-emerald-700: rgb(4 120 87    / var(--fw-color-opacity));
-  --fw-emerald-800: rgb(6 95 70     / var(--fw-color-opacity));
-  --fw-emerald-900: rgb(6 78 59     / var(--fw-color-opacity));
-  --fw-teal-50:     rgb(240 253 250 / var(--fw-color-opacity));
-  --fw-teal-100:    rgb(204 251 241 / var(--fw-color-opacity));
-  --fw-teal-200:    rgb(153 246 228 / var(--fw-color-opacity));
-  --fw-teal-300:    rgb(94 234 212  / var(--fw-color-opacity));
-  --fw-teal-400:    rgb(45 212 191  / var(--fw-color-opacity));
-  --fw-teal-500:    rgb(20 184 166  / var(--fw-color-opacity));
-  --fw-teal-600:    rgb(13 148 136  / var(--fw-color-opacity));
-  --fw-teal-700:    rgb(15 118 110  / var(--fw-color-opacity));
-  --fw-teal-800:    rgb(17 94 89    / var(--fw-color-opacity));
-  --fw-teal-900:    rgb(19 78 74    / var(--fw-color-opacity));
-  --fw-cyan-50:     rgb(236 254 255 / var(--fw-color-opacity));
-  --fw-cyan-100:    rgb(207 250 254 / var(--fw-color-opacity));
-  --fw-cyan-200:    rgb(165 243 252 / var(--fw-color-opacity));
-  --fw-cyan-300:    rgb(103 232 249 / var(--fw-color-opacity));
-  --fw-cyan-400:    rgb(34 211 238  / var(--fw-color-opacity));
-  --fw-cyan-500:    rgb(6 182 212   / var(--fw-color-opacity));
-  --fw-cyan-600:    rgb(8 145 178   / var(--fw-color-opacity));
-  --fw-cyan-700:    rgb(14 116 144  / var(--fw-color-opacity));
-  --fw-cyan-800:    rgb(21 94 117   / var(--fw-color-opacity));
-  --fw-cyan-900:    rgb(22 78 99    / var(--fw-color-opacity));
-  --fw-sky-50:      rgb(240 249 255 / var(--fw-color-opacity));
-  --fw-sky-100:     rgb(224 242 254 / var(--fw-color-opacity));
-  --fw-sky-200:     rgb(186 230 253 / var(--fw-color-opacity));
-  --fw-sky-300:     rgb(125 211 252 / var(--fw-color-opacity));
-  --fw-sky-400:     rgb(56 189 248  / var(--fw-color-opacity));
-  --fw-sky-500:     rgb(14 165 233  / var(--fw-color-opacity));
-  --fw-sky-600:     rgb(2 132 199   / var(--fw-color-opacity));
-  --fw-sky-700:     rgb(3 105 161   / var(--fw-color-opacity));
-  --fw-sky-800:     rgb(7 89 133    / var(--fw-color-opacity));
-  --fw-sky-900:     rgb(12 74 110   / var(--fw-color-opacity));
-  --fw-blue-50:     rgb(239 246 255 / var(--fw-color-opacity));
-  --fw-blue-100:    rgb(219 234 254 / var(--fw-color-opacity));
-  --fw-blue-200:    rgb(191 219 254 / var(--fw-color-opacity));
-  --fw-blue-300:    rgb(147 197 253 / var(--fw-color-opacity));
-  --fw-blue-400:    rgb(96 165 250  / var(--fw-color-opacity));
-  --fw-blue-500:    rgb(59 130 246  / var(--fw-color-opacity));
-  --fw-blue-600:    rgb(37 99 235   / var(--fw-color-opacity));
-  --fw-blue-700:    rgb(29 78 216   / var(--fw-color-opacity));
-  --fw-blue-800:    rgb(30 64 175   / var(--fw-color-opacity));
-  --fw-blue-900:    rgb(30 58 138   / var(--fw-color-opacity));
-  --fw-indigo-50:   rgb(238 242 255 / var(--fw-color-opacity));
-  --fw-indigo-100:  rgb(224 231 255 / var(--fw-color-opacity));
-  --fw-indigo-200:  rgb(199 210 254 / var(--fw-color-opacity));
-  --fw-indigo-300:  rgb(165 180 252 / var(--fw-color-opacity));
-  --fw-indigo-400:  rgb(129 140 248 / var(--fw-color-opacity));
-  --fw-indigo-500:  rgb(99 102 241  / var(--fw-color-opacity));
-  --fw-indigo-600:  rgb(79 70 229   / var(--fw-color-opacity));
-  --fw-indigo-700:  rgb(67 56 202   / var(--fw-color-opacity));
-  --fw-indigo-800:  rgb(55 48 163   / var(--fw-color-opacity));
-  --fw-indigo-900:  rgb(49 46 129   / var(--fw-color-opacity));
-  --fw-violet-50:   rgb(245 243 255 / var(--fw-color-opacity));
-  --fw-violet-100:  rgb(237 233 254 / var(--fw-color-opacity));
-  --fw-violet-200:  rgb(221 214 254 / var(--fw-color-opacity));
-  --fw-violet-300:  rgb(196 181 253 / var(--fw-color-opacity));
-  --fw-violet-400:  rgb(167 139 250 / var(--fw-color-opacity));
-  --fw-violet-500:  rgb(139 92 246  / var(--fw-color-opacity));
-  --fw-violet-600:  rgb(124 58 237  / var(--fw-color-opacity));
-  --fw-violet-700:  rgb(109 40 217  / var(--fw-color-opacity));
-  --fw-violet-800:  rgb(91 33 182   / var(--fw-color-opacity));
-  --fw-violet-900:  rgb(76 29 149   / var(--fw-color-opacity));
-  --fw-purple-50:   rgb(250 245 255 / var(--fw-color-opacity));
-  --fw-purple-100:  rgb(243 232 255 / var(--fw-color-opacity));
-  --fw-purple-200:  rgb(233 213 255 / var(--fw-color-opacity));
-  --fw-purple-300:  rgb(216 180 254 / var(--fw-color-opacity));
-  --fw-purple-400:  rgb(192 132 252 / var(--fw-color-opacity));
-  --fw-purple-500:  rgb(168 85 247  / var(--fw-color-opacity));
-  --fw-purple-600:  rgb(147 51 234  / var(--fw-color-opacity));
-  --fw-purple-700:  rgb(126 34 206  / var(--fw-color-opacity));
-  --fw-purple-800:  rgb(107 33 168  / var(--fw-color-opacity));
-  --fw-purple-900:  rgb(88 28 135   / var(--fw-color-opacity));
-  --fw-fuchsia-50:  rgb(253 244 255 / var(--fw-color-opacity));
-  --fw-fuchsia-100: rgb(250 232 255 / var(--fw-color-opacity));
-  --fw-fuchsia-200: rgb(245 208 254 / var(--fw-color-opacity));
-  --fw-fuchsia-300: rgb(240 171 252 / var(--fw-color-opacity));
-  --fw-fuchsia-400: rgb(232 121 249 / var(--fw-color-opacity));
-  --fw-fuchsia-500: rgb(217 70 239  / var(--fw-color-opacity));
-  --fw-fuchsia-600: rgb(192 38 211  / var(--fw-color-opacity));
-  --fw-fuchsia-700: rgb(162 28 175  / var(--fw-color-opacity));
-  --fw-fuchsia-800: rgb(134 25 143  / var(--fw-color-opacity));
-  --fw-fuchsia-900: rgb(112 26 117  / var(--fw-color-opacity));
-  --fw-pink-50:     rgb(253 242 248 / var(--fw-color-opacity));
-  --fw-pink-100:    rgb(252 231 243 / var(--fw-color-opacity));
-  --fw-pink-200:    rgb(251 207 232 / var(--fw-color-opacity));
-  --fw-pink-300:    rgb(249 168 212 / var(--fw-color-opacity));
-  --fw-pink-400:    rgb(244 114 182 / var(--fw-color-opacity));
-  --fw-pink-500:    rgb(236 72 153  / var(--fw-color-opacity));
-  --fw-pink-600:    rgb(219 39 119  / var(--fw-color-opacity));
-  --fw-pink-700:    rgb(190 24 93   / var(--fw-color-opacity));
-  --fw-pink-800:    rgb(157 23 77   / var(--fw-color-opacity));
-  --fw-pink-900:    rgb(131 24 67   / var(--fw-color-opacity));
-  --fw-rose-50:     rgb(255 241 242 / var(--fw-color-opacity));
-  --fw-rose-100:    rgb(255 228 230 / var(--fw-color-opacity));
-  --fw-rose-200:    rgb(254 205 211 / var(--fw-color-opacity));
-  --fw-rose-300:    rgb(253 164 175 / var(--fw-color-opacity));
-  --fw-rose-400:    rgb(251 113 133 / var(--fw-color-opacity));
-  --fw-rose-500:    rgb(244 63 94   / var(--fw-color-opacity));
-  --fw-rose-600:    rgb(225 29 72   / var(--fw-color-opacity));
-  --fw-rose-700:    rgb(190 18 60   / var(--fw-color-opacity));
-  --fw-rose-800:    rgb(159 18 57   / var(--fw-color-opacity));
-  --fw-rose-900:    rgb(136 19 55   / var(--fw-color-opacity));
+  //
+  --fw-black: rgb(0 0 0 / var(--fw-color-opacity));             // rgb(0 0 0)
+  --fw-white: rgb(255 255 255 / var(--fw-color-opacity));       // rgb(255 255 255)
+  --fw-slate-50: rgb(248 250 252 / var(--fw-color-opacity));    // rgb(248 250 252)
+  --fw-slate-100: rgb(241 245 249 / var(--fw-color-opacity));   // rgb(241 245 249)
+  --fw-slate-200: rgb(226 232 240 / var(--fw-color-opacity));   // rgb(226 232 240)
+  --fw-slate-300: rgb(203 213 225 / var(--fw-color-opacity));   // rgb(203 213 225)
+  --fw-slate-400: rgb(148 163 184 / var(--fw-color-opacity));   // rgb(148 163 184)
+  --fw-slate-500: rgb(100 116 139 / var(--fw-color-opacity));   // rgb(100 116 139)
+  --fw-slate-600: rgb(71 85 105 / var(--fw-color-opacity));     // rgb(71 85 105)
+  --fw-slate-700: rgb(51 65 85 / var(--fw-color-opacity));      // rgb(51 65 85)
+  --fw-slate-800: rgb(30 41 59 / var(--fw-color-opacity));      // rgb(30 41 59)
+  --fw-slate-900: rgb(15 23 42 / var(--fw-color-opacity));      // rgb(15 23 42)
+  --fw-gray-50: rgb(249 250 251 / var(--fw-color-opacity));     // rgb(249 250 251)
+  --fw-gray-100: rgb(243 244 246 / var(--fw-color-opacity));    // rgb(243 244 246)
+  --fw-gray-200: rgb(229 231 235 / var(--fw-color-opacity));    // rgb(229 231 235)
+  --fw-gray-300: rgb(209 213 219 / var(--fw-color-opacity));    // rgb(209 213 219)
+  --fw-gray-400: rgb(156 163 175 / var(--fw-color-opacity));    // rgb(156 163 175)
+  --fw-gray-500: rgb(107 114 128 / var(--fw-color-opacity));    // rgb(107 114 128)
+  --fw-gray-600: rgb(75 85 99 / var(--fw-color-opacity));       // rgb(75 85 99)
+  --fw-gray-700: rgb(55 65 81 / var(--fw-color-opacity));       // rgb(55 65 81)
+  --fw-gray-800: rgb(31 41 55 / var(--fw-color-opacity));       // rgb(31 41 55)
+  --fw-gray-900: rgb(17 24 39 / var(--fw-color-opacity));       // rgb(17 24 39)
+  --fw-zinc-50: rgb(250 250 250 / var(--fw-color-opacity));     // rgb(250 250 250)
+  --fw-zinc-100: rgb(244 244 245 / var(--fw-color-opacity));    // rgb(244 244 245)
+  --fw-zinc-200: rgb(228 228 231 / var(--fw-color-opacity));    // rgb(228 228 231)
+  --fw-zinc-300: rgb(212 212 216 / var(--fw-color-opacity));    // rgb(212 212 216)
+  --fw-zinc-400: rgb(161 161 170 / var(--fw-color-opacity));    // rgb(161 161 170)
+  --fw-zinc-500: rgb(113 113 122 / var(--fw-color-opacity));    // rgb(113 113 122)
+  --fw-zinc-600: rgb(82 82 91 / var(--fw-color-opacity));       // rgb(82 82 91)
+  --fw-zinc-700: rgb(63 63 70 / var(--fw-color-opacity));       // rgb(63 63 70)
+  --fw-zinc-800: rgb(39 39 42 / var(--fw-color-opacity));       // rgb(39 39 42)
+  --fw-zinc-900: rgb(24 24 27 / var(--fw-color-opacity));       // rgb(24 24 27)
+  --fw-neutral-50: rgb(250 250 250 / var(--fw-color-opacity));  // rgb(250 250 250)
+  --fw-neutral-100: rgb(245 245 245 / var(--fw-color-opacity)); // rgb(245 245 245)
+  --fw-neutral-200: rgb(229 229 229 / var(--fw-color-opacity)); // rgb(229 229 229)
+  --fw-neutral-300: rgb(212 212 212 / var(--fw-color-opacity)); // rgb(212 212 212)
+  --fw-neutral-400: rgb(163 163 163 / var(--fw-color-opacity)); // rgb(163 163 163)
+  --fw-neutral-500: rgb(115 115 115 / var(--fw-color-opacity)); // rgb(115 115 115)
+  --fw-neutral-600: rgb(82 82 82 / var(--fw-color-opacity));    // rgb(82 82 82)
+  --fw-neutral-700: rgb(64 64 64 / var(--fw-color-opacity));    // rgb(64 64 64)
+  --fw-neutral-800: rgb(38 38 38 / var(--fw-color-opacity));    // rgb(38 38 38)
+  --fw-neutral-900: rgb(23 23 23 / var(--fw-color-opacity));    // rgb(23 23 23)
+  --fw-stone-50: rgb(250 250 249 / var(--fw-color-opacity));    // rgb(250 250 249)
+  --fw-stone-100: rgb(245 245 244 / var(--fw-color-opacity));   // rgb(245 245 244)
+  --fw-stone-200: rgb(231 229 228 / var(--fw-color-opacity));   // rgb(231 229 228)
+  --fw-stone-300: rgb(214 211 209 / var(--fw-color-opacity));   // rgb(214 211 209)
+  --fw-stone-400: rgb(168 162 158 / var(--fw-color-opacity));   // rgb(168 162 158)
+  --fw-stone-500: rgb(120 113 108 / var(--fw-color-opacity));   // rgb(120 113 108)
+  --fw-stone-600: rgb(87 83 78 / var(--fw-color-opacity));      // rgb(87 83 78)
+  --fw-stone-700: rgb(68 64 60 / var(--fw-color-opacity));      // rgb(68 64 60)
+  --fw-stone-800: rgb(41 37 36 / var(--fw-color-opacity));      // rgb(41 37 36)
+  --fw-stone-900: rgb(28 25 23 / var(--fw-color-opacity));      // rgb(28 25 23)
+  --fw-red-50: rgb(254 242 242 / var(--fw-color-opacity));      // rgb(254 242 242)
+  --fw-red-100: rgb(254 226 226 / var(--fw-color-opacity));     // rgb(254 226 226)
+  --fw-red-200: rgb(254 202 202 / var(--fw-color-opacity));     // rgb(254 202 202)
+  --fw-red-300: rgb(252 165 165 / var(--fw-color-opacity));     // rgb(252 165 165)
+  --fw-red-400: rgb(248 113 113 / var(--fw-color-opacity));     // rgb(248 113 113)
+  --fw-red-500: rgb(239 68 68 / var(--fw-color-opacity));       // rgb(239 68 68)
+  --fw-red-600: rgb(220 38 38 / var(--fw-color-opacity));       // rgb(220 38 38)
+  --fw-red-700: rgb(185 28 28 / var(--fw-color-opacity));       // rgb(185 28 28)
+  --fw-red-800: rgb(153 27 27 / var(--fw-color-opacity));       // rgb(153 27 27)
+  --fw-red-900: rgb(127 29 29 / var(--fw-color-opacity));       // rgb(127 29 29)
+  --fw-orange-50: rgb(255 247 237 / var(--fw-color-opacity));   // rgb(255 247 237)
+  --fw-orange-100: rgb(255 237 213 / var(--fw-color-opacity));  // rgb(255 237 213)
+  --fw-orange-200: rgb(254 215 170 / var(--fw-color-opacity));  // rgb(254 215 170)
+  --fw-orange-300: rgb(253 186 116 / var(--fw-color-opacity));  // rgb(253 186 116)
+  --fw-orange-400: rgb(251 146 60 / var(--fw-color-opacity));   // rgb(251 146 60)
+  --fw-orange-500: rgb(249 115 22 / var(--fw-color-opacity));   // rgb(249 115 22)
+  --fw-orange-600: rgb(234 88 12 / var(--fw-color-opacity));    // rgb(234 88 12)
+  --fw-orange-700: rgb(194 65 12 / var(--fw-color-opacity));    // rgb(194 65 12)
+  --fw-orange-800: rgb(154 52 18 / var(--fw-color-opacity));    // rgb(154 52 18)
+  --fw-orange-900: rgb(124 45 18 / var(--fw-color-opacity));    // rgb(124 45 18)
+  --fw-amber-50: rgb(255 251 235 / var(--fw-color-opacity));    // rgb(255 251 235)
+  --fw-amber-100: rgb(254 243 199 / var(--fw-color-opacity));   // rgb(254 243 199)
+  --fw-amber-200: rgb(253 230 138 / var(--fw-color-opacity));   // rgb(253 230 138)
+  --fw-amber-300: rgb(252 211 77 / var(--fw-color-opacity));    // rgb(252 211 77)
+  --fw-amber-400: rgb(251 191 36 / var(--fw-color-opacity));    // rgb(251 191 36)
+  --fw-amber-500: rgb(245 158 11 / var(--fw-color-opacity));    // rgb(245 158 11)
+  --fw-amber-600: rgb(217 119 6 / var(--fw-color-opacity));     // rgb(217 119 6)
+  --fw-amber-700: rgb(180 83 9 / var(--fw-color-opacity));      // rgb(180 83 9)
+  --fw-amber-800: rgb(146 64 14 / var(--fw-color-opacity));     // rgb(146 64 14)
+  --fw-amber-900: rgb(120 53 15 / var(--fw-color-opacity));     // rgb(120 53 15)
+  --fw-yellow-50: rgb(254 252 232 / var(--fw-color-opacity));   // rgb(254 252 232)
+  --fw-yellow-100: rgb(254 249 195 / var(--fw-color-opacity));  // rgb(254 249 195)
+  --fw-yellow-200: rgb(254 240 138 / var(--fw-color-opacity));  // rgb(254 240 138)
+  --fw-yellow-300: rgb(253 224 71 / var(--fw-color-opacity));   // rgb(253 224 71)
+  --fw-yellow-400: rgb(250 204 21 / var(--fw-color-opacity));   // rgb(250 204 21)
+  --fw-yellow-500: rgb(234 179 8 / var(--fw-color-opacity));    // rgb(234 179 8)
+  --fw-yellow-600: rgb(202 138 4 / var(--fw-color-opacity));    // rgb(202 138 4)
+  --fw-yellow-700: rgb(161 98 7 / var(--fw-color-opacity));     // rgb(161 98 7)
+  --fw-yellow-800: rgb(133 77 14 / var(--fw-color-opacity));    // rgb(133 77 14)
+  --fw-yellow-900: rgb(113 63 18 / var(--fw-color-opacity));    // rgb(113 63 18)
+  --fw-lime-50: rgb(247 254 231 / var(--fw-color-opacity));     // rgb(247 254 231)
+  --fw-lime-100: rgb(236 252 203 / var(--fw-color-opacity));    // rgb(236 252 203)
+  --fw-lime-200: rgb(217 249 157 / var(--fw-color-opacity));    // rgb(217 249 157)
+  --fw-lime-300: rgb(190 242 100 / var(--fw-color-opacity));    // rgb(190 242 100)
+  --fw-lime-400: rgb(163 230 53 / var(--fw-color-opacity));     // rgb(163 230 53)
+  --fw-lime-500: rgb(132 204 22 / var(--fw-color-opacity));     // rgb(132 204 22)
+  --fw-lime-600: rgb(101 163 13 / var(--fw-color-opacity));     // rgb(101 163 13)
+  --fw-lime-700: rgb(77 124 15 / var(--fw-color-opacity));      // rgb(77 124 15)
+  --fw-lime-800: rgb(63 98 18 / var(--fw-color-opacity));       // rgb(63 98 18)
+  --fw-lime-900: rgb(54 83 20 / var(--fw-color-opacity));       // rgb(54 83 20)
+  --fw-green-50: rgb(240 253 244 / var(--fw-color-opacity));    // rgb(240 253 244)
+  --fw-green-100: rgb(220 252 231 / var(--fw-color-opacity));   // rgb(220 252 231)
+  --fw-green-200: rgb(187 247 208 / var(--fw-color-opacity));   // rgb(187 247 208)
+  --fw-green-300: rgb(134 239 172 / var(--fw-color-opacity));   // rgb(134 239 172)
+  --fw-green-400: rgb(74 222 128 / var(--fw-color-opacity));    // rgb(74 222 128)
+  --fw-green-500: rgb(34 197 94 / var(--fw-color-opacity));     // rgb(34 197 94)
+  --fw-green-600: rgb(22 163 74 / var(--fw-color-opacity));     // rgb(22 163 74)
+  --fw-green-700: rgb(21 128 61 / var(--fw-color-opacity));     // rgb(21 128 61)
+  --fw-green-800: rgb(22 101 52 / var(--fw-color-opacity));     // rgb(22 101 52)
+  --fw-green-900: rgb(20 83 45 / var(--fw-color-opacity));      // rgb(20 83 45)
+  --fw-emerald-50: rgb(236 253 245 / var(--fw-color-opacity));  // rgb(236 253 245)
+  --fw-emerald-100: rgb(209 250 229 / var(--fw-color-opacity)); // rgb(209 250 229)
+  --fw-emerald-200: rgb(167 243 208 / var(--fw-color-opacity)); // rgb(167 243 208)
+  --fw-emerald-300: rgb(110 231 183 / var(--fw-color-opacity)); // rgb(110 231 183)
+  --fw-emerald-400: rgb(52 211 153 / var(--fw-color-opacity));  // rgb(52 211 153)
+  --fw-emerald-500: rgb(16 185 129 / var(--fw-color-opacity));  // rgb(16 185 129)
+  --fw-emerald-600: rgb(5 150 105 / var(--fw-color-opacity));   // rgb(5 150 105)
+  --fw-emerald-700: rgb(4 120 87 / var(--fw-color-opacity));    // rgb(4 120 87)
+  --fw-emerald-800: rgb(6 95 70 / var(--fw-color-opacity));     // rgb(6 95 70)
+  --fw-emerald-900: rgb(6 78 59 / var(--fw-color-opacity));     // rgb(6 78 59)
+  --fw-teal-50: rgb(240 253 250 / var(--fw-color-opacity));     // rgb(240 253 250)
+  --fw-teal-100: rgb(204 251 241 / var(--fw-color-opacity));    // rgb(204 251 241)
+  --fw-teal-200: rgb(153 246 228 / var(--fw-color-opacity));    // rgb(153 246 228)
+  --fw-teal-300: rgb(94 234 212 / var(--fw-color-opacity));     // rgb(94 234 212)
+  --fw-teal-400: rgb(45 212 191 / var(--fw-color-opacity));     // rgb(45 212 191)
+  --fw-teal-500: rgb(20 184 166 / var(--fw-color-opacity));     // rgb(20 184 166)
+  --fw-teal-600: rgb(13 148 136 / var(--fw-color-opacity));     // rgb(13 148 136)
+  --fw-teal-700: rgb(15 118 110 / var(--fw-color-opacity));     // rgb(15 118 110)
+  --fw-teal-800: rgb(17 94 89 / var(--fw-color-opacity));       // rgb(17 94 89)
+  --fw-teal-900: rgb(19 78 74 / var(--fw-color-opacity));       // rgb(19 78 74)
+  --fw-cyan-50: rgb(236 254 255 / var(--fw-color-opacity));     // rgb(236 254 255)
+  --fw-cyan-100: rgb(207 250 254 / var(--fw-color-opacity));    // rgb(207 250 254)
+  --fw-cyan-200: rgb(165 243 252 / var(--fw-color-opacity));    // rgb(165 243 252)
+  --fw-cyan-300: rgb(103 232 249 / var(--fw-color-opacity));    // rgb(103 232 249)
+  --fw-cyan-400: rgb(34 211 238 / var(--fw-color-opacity));     // rgb(34 211 238)
+  --fw-cyan-500: rgb(6 182 212 / var(--fw-color-opacity));      // rgb(6 182 212)
+  --fw-cyan-600: rgb(8 145 178 / var(--fw-color-opacity));      // rgb(8 145 178)
+  --fw-cyan-700: rgb(14 116 144 / var(--fw-color-opacity));     // rgb(14 116 144)
+  --fw-cyan-800: rgb(21 94 117 / var(--fw-color-opacity));      // rgb(21 94 117)
+  --fw-cyan-900: rgb(22 78 99 / var(--fw-color-opacity));       // rgb(22 78 99)
+  --fw-sky-50: rgb(240 249 255 / var(--fw-color-opacity));      // rgb(240 249 255)
+  --fw-sky-100: rgb(224 242 254 / var(--fw-color-opacity));     // rgb(224 242 254)
+  --fw-sky-200: rgb(186 230 253 / var(--fw-color-opacity));     // rgb(186 230 253)
+  --fw-sky-300: rgb(125 211 252 / var(--fw-color-opacity));     // rgb(125 211 252)
+  --fw-sky-400: rgb(56 189 248 / var(--fw-color-opacity));      // rgb(56 189 248)
+  --fw-sky-500: rgb(14 165 233 / var(--fw-color-opacity));      // rgb(14 165 233)
+  --fw-sky-600: rgb(2 132 199 / var(--fw-color-opacity));       // rgb(2 132 199)
+  --fw-sky-700: rgb(3 105 161 / var(--fw-color-opacity));       // rgb(3 105 161)
+  --fw-sky-800: rgb(7 89 133 / var(--fw-color-opacity));        // rgb(7 89 133)
+  --fw-sky-900: rgb(12 74 110 / var(--fw-color-opacity));       // rgb(12 74 110)
+  --fw-blue-50: rgb(239 246 255 / var(--fw-color-opacity));     // rgb(239 246 255)
+  --fw-blue-100: rgb(219 234 254 / var(--fw-color-opacity));    // rgb(219 234 254)
+  --fw-blue-200: rgb(191 219 254 / var(--fw-color-opacity));    // rgb(191 219 254)
+  --fw-blue-300: rgb(147 197 253 / var(--fw-color-opacity));    // rgb(147 197 253)
+  --fw-blue-400: rgb(96 165 250 / var(--fw-color-opacity));     // rgb(96 165 250)
+  --fw-blue-500: rgb(59 130 246 / var(--fw-color-opacity));     // rgb(59 130 246)
+  --fw-blue-600: rgb(37 99 235 / var(--fw-color-opacity));      // rgb(37 99 235)
+  --fw-blue-700: rgb(29 78 216 / var(--fw-color-opacity));      // rgb(29 78 216)
+  --fw-blue-800: rgb(30 64 175 / var(--fw-color-opacity));      // rgb(30 64 175)
+  --fw-blue-900: rgb(30 58 138 / var(--fw-color-opacity));      // rgb(30 58 138)
+  --fw-indigo-50: rgb(238 242 255 / var(--fw-color-opacity));   // rgb(238 242 255)
+  --fw-indigo-100: rgb(224 231 255 / var(--fw-color-opacity));  // rgb(224 231 255)
+  --fw-indigo-200: rgb(199 210 254 / var(--fw-color-opacity));  // rgb(199 210 254)
+  --fw-indigo-300: rgb(165 180 252 / var(--fw-color-opacity));  // rgb(165 180 252)
+  --fw-indigo-400: rgb(129 140 248 / var(--fw-color-opacity));  // rgb(129 140 248)
+  --fw-indigo-500: rgb(99 102 241 / var(--fw-color-opacity));   // rgb(99 102 241)
+  --fw-indigo-600: rgb(79 70 229 / var(--fw-color-opacity));    // rgb(79 70 229)
+  --fw-indigo-700: rgb(67 56 202 / var(--fw-color-opacity));    // rgb(67 56 202)
+  --fw-indigo-800: rgb(55 48 163 / var(--fw-color-opacity));    // rgb(55 48 163)
+  --fw-indigo-900: rgb(49 46 129 / var(--fw-color-opacity));    // rgb(49 46 129)
+  --fw-violet-50: rgb(245 243 255 / var(--fw-color-opacity));   // rgb(245 243 255)
+  --fw-violet-100: rgb(237 233 254 / var(--fw-color-opacity));  // rgb(237 233 254)
+  --fw-violet-200: rgb(221 214 254 / var(--fw-color-opacity));  // rgb(221 214 254)
+  --fw-violet-300: rgb(196 181 253 / var(--fw-color-opacity));  // rgb(196 181 253)
+  --fw-violet-400: rgb(167 139 250 / var(--fw-color-opacity));  // rgb(167 139 250)
+  --fw-violet-500: rgb(139 92 246 / var(--fw-color-opacity));   // rgb(139 92 246)
+  --fw-violet-600: rgb(124 58 237 / var(--fw-color-opacity));   // rgb(124 58 237)
+  --fw-violet-700: rgb(109 40 217 / var(--fw-color-opacity));   // rgb(109 40 217)
+  --fw-violet-800: rgb(91 33 182 / var(--fw-color-opacity));    // rgb(91 33 182)
+  --fw-violet-900: rgb(76 29 149 / var(--fw-color-opacity));    // rgb(76 29 149)
+  --fw-purple-50: rgb(250 245 255 / var(--fw-color-opacity));   // rgb(250 245 255)
+  --fw-purple-100: rgb(243 232 255 / var(--fw-color-opacity));  // rgb(243 232 255)
+  --fw-purple-200: rgb(233 213 255 / var(--fw-color-opacity));  // rgb(233 213 255)
+  --fw-purple-300: rgb(216 180 254 / var(--fw-color-opacity));  // rgb(216 180 254)
+  --fw-purple-400: rgb(192 132 252 / var(--fw-color-opacity));  // rgb(192 132 252)
+  --fw-purple-500: rgb(168 85 247 / var(--fw-color-opacity));   // rgb(168 85 247)
+  --fw-purple-600: rgb(147 51 234 / var(--fw-color-opacity));   // rgb(147 51 234)
+  --fw-purple-700: rgb(126 34 206 / var(--fw-color-opacity));   // rgb(126 34 206)
+  --fw-purple-800: rgb(107 33 168 / var(--fw-color-opacity));   // rgb(107 33 168)
+  --fw-purple-900: rgb(88 28 135 / var(--fw-color-opacity));    // rgb(88 28 135)
+  --fw-fuchsia-50: rgb(253 244 255 / var(--fw-color-opacity));  // rgb(253 244 255)
+  --fw-fuchsia-100: rgb(250 232 255 / var(--fw-color-opacity)); // rgb(250 232 255)
+  --fw-fuchsia-200: rgb(245 208 254 / var(--fw-color-opacity)); // rgb(245 208 254)
+  --fw-fuchsia-300: rgb(240 171 252 / var(--fw-color-opacity)); // rgb(240 171 252)
+  --fw-fuchsia-400: rgb(232 121 249 / var(--fw-color-opacity)); // rgb(232 121 249)
+  --fw-fuchsia-500: rgb(217 70 239 / var(--fw-color-opacity));  // rgb(217 70 239)
+  --fw-fuchsia-600: rgb(192 38 211 / var(--fw-color-opacity));  // rgb(192 38 211)
+  --fw-fuchsia-700: rgb(162 28 175 / var(--fw-color-opacity));  // rgb(162 28 175)
+  --fw-fuchsia-800: rgb(134 25 143 / var(--fw-color-opacity));  // rgb(134 25 143)
+  --fw-fuchsia-900: rgb(112 26 117 / var(--fw-color-opacity));  // rgb(112 26 117)
+  --fw-pink-50: rgb(253 242 248 / var(--fw-color-opacity));     // rgb(253 242 248)
+  --fw-pink-100: rgb(252 231 243 / var(--fw-color-opacity));    // rgb(252 231 243)
+  --fw-pink-200: rgb(251 207 232 / var(--fw-color-opacity));    // rgb(251 207 232)
+  --fw-pink-300: rgb(249 168 212 / var(--fw-color-opacity));    // rgb(249 168 212)
+  --fw-pink-400: rgb(244 114 182 / var(--fw-color-opacity));    // rgb(244 114 182)
+  --fw-pink-500: rgb(236 72 153 / var(--fw-color-opacity));     // rgb(236 72 153)
+  --fw-pink-600: rgb(219 39 119 / var(--fw-color-opacity));     // rgb(219 39 119)
+  --fw-pink-700: rgb(190 24 93 / var(--fw-color-opacity));      // rgb(190 24 93)
+  --fw-pink-800: rgb(157 23 77 / var(--fw-color-opacity));      // rgb(157 23 77)
+  --fw-pink-900: rgb(131 24 67 / var(--fw-color-opacity));      // rgb(131 24 67)
+  --fw-rose-50: rgb(255 241 242 / var(--fw-color-opacity));     // rgb(255 241 242)
+  --fw-rose-100: rgb(255 228 230 / var(--fw-color-opacity));    // rgb(255 228 230)
+  --fw-rose-200: rgb(254 205 211 / var(--fw-color-opacity));    // rgb(254 205 211)
+  --fw-rose-300: rgb(253 164 175 / var(--fw-color-opacity));    // rgb(253 164 175)
+  --fw-rose-400: rgb(251 113 133 / var(--fw-color-opacity));    // rgb(251 113 133)
+  --fw-rose-500: rgb(244 63 94 / var(--fw-color-opacity));      // rgb(244 63 94)
+  --fw-rose-600: rgb(225 29 72 / var(--fw-color-opacity));      // rgb(225 29 72)
+  --fw-rose-700: rgb(190 18 60 / var(--fw-color-opacity));      // rgb(190 18 60)
+  --fw-rose-800: rgb(159 18 57 / var(--fw-color-opacity));      // rgb(159 18 57)
+  --fw-rose-900: rgb(136 19 55 / var(--fw-color-opacity));      // rgb(136 19 55)
 }
