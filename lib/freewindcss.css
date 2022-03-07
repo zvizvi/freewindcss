@@ -1,5 +1,5 @@
 /*!
-  * Freewindcss v0.0.8
+  * Freewindcss v0.0.9
   * https://github.com/zvizvi/freewindcss#readme
   *
   * Copyright (c) 2022 zvizvi
@@ -51,45 +51,45 @@
   --fw-80: 20rem;
   --fw-96: 24rem;
   /* negative sizing and spacing */
-  --fw--0\5 : 0.125rem;
-  --fw--1: 0.25rem;
-  --fw--1\5 : 0.375rem;
-  --fw--2: 0.5rem;
-  --fw--2\5 : 0.625rem;
-  --fw--3: 0.75rem;
-  --fw--3\5 : 0.875rem;
-  --fw--4: 1rem;
-  --fw--4\5 : 1.125rem;
-  --fw--5: 1.25rem;
-  --fw--6: 1.5rem;
-  --fw--7: 1.75rem;
-  --fw--8: 2rem;
-  --fw--9: 2.25rem;
-  --fw--10: 2.5rem;
-  --fw--11: 2.75rem;
-  --fw--12: 3rem;
-  --fw--13: 3.25rem;
-  --fw--14: 3.5rem;
-  --fw--15: 3.75rem;
-  --fw--16: 4rem;
-  --fw--17: 4.25rem;
-  --fw--18: 4.5rem;
-  --fw--19: 4.75rem;
-  --fw--20: 5rem;
-  --fw--24: 6rem;
-  --fw--28: 7rem;
-  --fw--32: 8rem;
-  --fw--36: 9rem;
-  --fw--40: 10rem;
-  --fw--44: 11rem;
-  --fw--48: 12rem;
-  --fw--52: 13rem;
-  --fw--56: 14rem;
-  --fw--60: 15rem;
-  --fw--64: 16rem;
-  --fw--72: 18rem;
-  --fw--80: 20rem;
-  --fw--96: 24rem;
+  --fw--0\5 : -0.125rem;
+  --fw--1: -0.25rem;
+  --fw--1\5 : -0.375rem;
+  --fw--2: -0.5rem;
+  --fw--2\5 : -0.625rem;
+  --fw--3: -0.75rem;
+  --fw--3\5 : -0.875rem;
+  --fw--4: -1rem;
+  --fw--4\5 : -1.125rem;
+  --fw--5: -1.25rem;
+  --fw--6: -1.5rem;
+  --fw--7: -1.75rem;
+  --fw--8: -2rem;
+  --fw--9: -2.25rem;
+  --fw--10: -2.5rem;
+  --fw--11: -2.75rem;
+  --fw--12: -3rem;
+  --fw--13: -3.25rem;
+  --fw--14: -3.5rem;
+  --fw--15: -3.75rem;
+  --fw--16: -4rem;
+  --fw--17: -4.25rem;
+  --fw--18: -4.5rem;
+  --fw--19: -4.75rem;
+  --fw--20: -5rem;
+  --fw--24: -6rem;
+  --fw--28: -7rem;
+  --fw--32: -8rem;
+  --fw--36: -9rem;
+  --fw--40: -10rem;
+  --fw--44: -11rem;
+  --fw--48: -12rem;
+  --fw--52: -13rem;
+  --fw--56: -14rem;
+  --fw--60: -15rem;
+  --fw--64: -16rem;
+  --fw--72: -18rem;
+  --fw--80: -20rem;
+  --fw--96: -24rem;
   /* font family */
   --fw-font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --fw-font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
