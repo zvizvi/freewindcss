@@ -170,7 +170,7 @@ element {
 ```
 
 ### Line Height
-#### Using with `line-height` property, for example:
+#### Used with `line-height` property, for example:
 ```scss
 element {
   line-height: var(--fw-leading-5); // 20px
@@ -234,4 +234,84 @@ element {
 --fw-shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.25);
 --fw-shadow-inner: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
 --fw-shadow-none: 0 0 #0000;
+```
+
+### Blur Filter
+#### Used with `filter: blur(x)` or with `  backdrop-filter: blur(x)`, for example:
+```scss
+element {
+  backdrop-filter: var(--fw-blur-md) // blur(12px)
+}
+```
+
+#### Variables
+```scss
+--fw-blur-none: blur(0);
+--fw-blur-sm: blur(4px);
+--fw-blur: blur(8px);
+--fw-blur-md: blur(12px);
+--fw-blur-lg: blur(16px);
+--fw-blur-xl: blur(24px);
+--fw-blur-2xl: blur(40px);
+--fw-blur-3xl: blur(64px);
+```
+
+### Drop Shadow
+#### Used with `filter: drop-shadow(x)`, for example:
+```scss
+element {
+  filter: var(--fw-drop-shadow-sm) // drop-shadow(0 1px 1px rgb(0 0 0 / 0.05))
+}
+```
+
+#### Variables
+```scss
+--fw-drop-shadow-sm: drop-shadow(0 1px 1px rgb(0 0 0 / 0.05));
+--fw-drop-shadow: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06));
+--fw-drop-shadow-md: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+--fw-drop-shadow-lg: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+--fw-drop-shadow-xl: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
+--fw-drop-shadow-2xl: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
+--fw-drop-shadow-none: drop-shadow(0 0 #0000);
+```
+
+### Columns
+#### example:
+```scss
+element {
+  columns: var(--fw-columns-3xl) // 768px
+}
+```
+
+#### Variables
+```scss
+--fw-columns-3xs: 16rem; // 256px
+--fw-columns-2xs: 18rem; // 288px
+--fw-columns-xs: 20rem;  // 320px
+--fw-columns-sm: 24rem;  // 384px
+--fw-columns-md: 28rem;  // 448px
+--fw-columns-lg: 32rem;  // 512px
+--fw-columns-xl: 36rem;  // 576px
+--fw-columns-2xl: 42rem; // 672px
+--fw-columns-3xl: 48rem; // 768px
+--fw-columns-4xl: 56rem; // 896px
+--fw-columns-5xl: 64rem; // 1024px
+--fw-columns-6xl: 72rem; // 1152px
+--fw-columns-7xl: 80rem; // 1280px
+```
+
+### Transition Timing
+#### example:
+```scss
+element {
+  transition-timing-function: var(--fw-ease-out) // cubic-bezier(0, 0, 0.2, 1)
+}
+```
+
+#### Variables
+```scss
+--fw-ease-linear: linear;
+--fw-ease-in: cubic-bezier(0.4, 0, 1, 1);
+--fw-ease-out: cubic-bezier(0, 0, 0.2, 1);
+--fw-ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
 ```
