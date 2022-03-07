@@ -1,5 +1,5 @@
 /*!
-  * Freewindcss v0.0.9
+  * Freewindcss v0.0.10
   * https://github.com/zvizvi/freewindcss#readme
   *
   * Copyright (c) 2022 zvizvi
@@ -8,8 +8,8 @@
 
 :root {
   /* sizing and spacing */
-  --fw-full: 100%;
   --fw-auto: auto;
+  --fw-full: 100%;
   --fw-0: 0;
   --fw-0\5 : 0.125rem;
   --fw-1: 0.25rem;
@@ -51,6 +51,7 @@
   --fw-80: 20rem;
   --fw-96: 24rem;
   /* negative sizing and spacing */
+  --fw--full: -100%;
   --fw--0\5 : -0.125rem;
   --fw--1: -0.25rem;
   --fw--1\5 : -0.375rem;

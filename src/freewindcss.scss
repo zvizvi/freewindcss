@@ -1,4 +1,4 @@
-// Freewindcss v0.0.9
+// Freewindcss v0.0.10
 // https://github.com/zvizvi/freewindcss#readme
 //
 // Copyright (c) 2022 zvizvi
@@ -6,8 +6,8 @@
 
 :root {
   /* sizing and spacing */
-  --fw-full: 100%;    // 100%
   --fw-auto: auto;    // auto
+  --fw-full: 100%;    // 100%
 
   --fw-0: 0;          // 0px
   --fw-0\5: 0.125rem; // 2px
@@ -51,6 +51,8 @@
   --fw-96: 24rem;     // 384px
 
   /* negative sizing and spacing */
+  --fw--full: -100%;    // -100%
+
   --fw--0\5: -0.125rem; // -2px
   --fw--1: -0.25rem;    // -4px
   --fw--1\5: -0.375rem; // -6px
