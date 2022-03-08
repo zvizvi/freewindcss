@@ -35,6 +35,8 @@ yarn add freewindcss
 }
 ```
 
+#### See a live demo on [Codesandbox.io](https://codesandbox.io/s/freewindcss-pfq17e)
+
 ## Documentation
 
 
