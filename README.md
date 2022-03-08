@@ -227,7 +227,7 @@ element {
 #### For example:
 ```scss
 element {
-  border-radius: var(--fw-rounded-md) // 6px
+  border-radius: var(--fw-rounded-md); // 6px
 }
 ```
 
@@ -248,7 +248,7 @@ element {
 #### For example:
 ```scss
 element {
-  box-shadow: var(--fw-shadow-lg) // 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)
+  box-shadow: var(--fw-shadow-lg); // 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)
 }
 ```
 
@@ -268,7 +268,7 @@ element {
 #### Used with `filter: blur(x)` or with `  backdrop-filter: blur(x)`, for example:
 ```scss
 element {
-  backdrop-filter: var(--fw-blur-md) // blur(12px)
+  backdrop-filter: var(--fw-blur-md); // blur(12px)
 }
 ```
 
@@ -288,7 +288,7 @@ element {
 #### Used with `filter: drop-shadow(x)`, for example:
 ```scss
 element {
-  filter: var(--fw-drop-shadow-sm) // drop-shadow(0 1px 1px rgb(0 0 0 / 0.05))
+  filter: var(--fw-drop-shadow-sm); // drop-shadow(0 1px 1px rgb(0 0 0 / 0.05))
 }
 ```
 
@@ -307,7 +307,7 @@ element {
 #### example:
 ```scss
 element {
-  columns: var(--fw-columns-3xl) // 768px
+  columns: var(--fw-columns-3xl); // 768px
 }
 ```
 
@@ -332,7 +332,7 @@ element {
 #### example:
 ```scss
 element {
-  transition-timing-function: var(--fw-ease-out) // cubic-bezier(0, 0, 0.2, 1)
+  transition-timing-function: var(--fw-ease-out); // cubic-bezier(0, 0, 0.2, 1)
 }
 ```
 
