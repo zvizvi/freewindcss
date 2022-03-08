@@ -37,6 +37,10 @@ yarn add freewindcss
 
 ## Documentation
 
+
+<details open>
+<summary>Index</summary>
+
 - [Sizing and spacing](#sizing-and-spacing)
   - [Negative sizing values](#negative-sizing-and-spacing-values)
 - [Font Family](#font-family)
@@ -53,6 +57,7 @@ yarn add freewindcss
 - [Colors](#colors)
   - [Colors transparency (alpha)](#color-opacity)
 - [Animations](#animations)
+</details>
 
 
 ### Sizing and Spacing
@@ -66,6 +71,7 @@ element {
 ```
 
 #### Variables
+
 ```css
 --fw-auto: auto;        // auto
 --fw-full: 100%;        // 100%
