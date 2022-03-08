@@ -37,22 +37,22 @@ yarn add freewindcss
 
 ## Documentation
 
-- Sizing and spacing
-  - Negative sizing values
-- Font Family
-- Font Size
-- Font Weight
-- Letter Spacing
-- Line Height
-- Border Radius
-- Box Shadow
-- Blur Filter
-- Drop Shadow
-- Columns
-- Transition Timing
-- Colors
-  - Colors transparency (alpha)
-- Animations
+- [Sizing and spacing](#sizing-and-spacing)
+  - [Negative sizing values](#negative-sizing-and-spacing-values)
+- [Font Family](#font-family)
+- [Font Size](#font-size)
+- [Font Weight](#font-weight)
+- [Letter Spacing](#letter-spacing)
+- [Line Height](#line-height)
+- [Border Radius](#border-radius)
+- [Box Shadow](#box-shadow)
+- [Blur Filter](#blur-filter)
+- [Drop Shadow](#drop-shadow)
+- [Columns](#columns)
+- [Transition Timing](#transition-timing)
+- [Colors](#colors)
+  - [Colors transparency (alpha)](#color-opacity)
+- [Animations](#animations)
 
 
 ### Sizing and Spacing
