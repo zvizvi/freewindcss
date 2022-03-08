@@ -93,6 +93,10 @@ element {
 --fw-96: 24rem;         // 384px
 ```
 
+#### Negative sizing and spacing values
+For negative size values just use the previous variables with a double - before the variable id:
+`--fw--1`, `--wf--1\5`, `--wf--full` and so on.
+
 ### Font Family
 #### Can be used withe the `font-family` property, for example:
 ```scss
