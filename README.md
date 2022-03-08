@@ -593,7 +593,7 @@ element {
 --fw-rose-800: rgb(159 18 57);      // rgb(159 18 57)
 --fw-rose-900: rgb(136 19 55);      // rgb(136 19 55)
 ```
-</summary>
+</details>
 
 ### Animations
 #### example:
