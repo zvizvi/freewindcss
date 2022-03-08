@@ -37,6 +37,24 @@ yarn add freewindcss
 
 ## Documentation
 
+- Sizing and spacing
+  - Negative sizing values
+- Font Family
+- Font Size
+- Font Weight
+- Letter Spacing
+- Line Height
+- Border Radius
+- Box Shadow
+- Blur Filter
+- Drop Shadow
+- Columns
+- Transition Timing
+- Colors
+  - Colors transparency (alpha)
+- Animations
+
+
 ### Sizing and Spacing
 #### Useful with the following properties; `margin`, `padding`, `height`, `width`, `top`, `right`, `bottom`, `left` Etc. for example:
 ```scss
@@ -112,7 +130,7 @@ element {
 --fw-font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 ```
 
-### Font Sizes
+### Font Size
 #### Can be used withe the `font-size` property, for example:
 ```scss
 element {
@@ -220,7 +238,7 @@ element {
 --fw-rounded-full: 9999px;   // 9999px
 ```
 
-### Box Shadows
+### Box Shadow
 #### For example:
 ```scss
 element {
