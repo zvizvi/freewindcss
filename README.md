@@ -592,3 +592,19 @@ element {
 --fw-rose-900: rgb(136 19 55);      // rgb(136 19 55)
 ```
 </summary>
+
+### Animations
+#### example:
+```scss
+element {
+  animation: var(--fw-animation-pulse); // fw-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+```
+
+#### Variables
+```scss
+--fw-animation-spin: fw-spin 1s linear infinite;
+--fw-animation-ping: fw-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+--fw-animation-pulse: fw-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+--fw-animation-bounce: fw-bounce 1s infinite;
+```
