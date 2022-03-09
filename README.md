@@ -59,6 +59,7 @@ yarn add freewindcss
 - [Colors](#colors)
   - [Colors transparency (alpha)](#color-opacity)
 - [Animations](#animations)
+- [Container Width](#container-width)
 </details>
 
 
@@ -609,4 +610,31 @@ element {
 --fw-animation-ping: fw-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
 --fw-animation-pulse: fw-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 --fw-animation-bounce: fw-bounce 1s infinite;
+```
+
+### Container Width
+#### Can be used with the `width` or `max-width`, for example:
+```scss
+element {
+  width: 100%;
+  max-width: var(--fw-container-width);
+}
+```
+
+The value of `--fw-container-width` will depend on the screen size:
+```scss
+@media (max-width: 640px) {
+  --fw-container-width: 640px;
+}
+
+@media (max-width: 768px) {
+  --fw-container-width: 768px;
+}
+
+@media (max-width: 1024px) {
+  --fw-container-width: 1024px;
+}
+
+// or in a bigger screen:
+--fw-container-width: 1280px;
 ```
