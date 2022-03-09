@@ -128,7 +128,7 @@ For negative size values just use the previous variables with a double - before 
 `--fw--1`, `--wf--1\5`, `--wf--full` and so on.
 
 ### Font Family
-#### Can be used withe the `font-family` property, for example:
+#### Can be used with the `font-family` property, for example:
 ```scss
 element {
   font-family: var(--fw-font-serif); // ui-serif, Georgia, Cambria, "Times New Roman", Times, serif
@@ -143,7 +143,7 @@ element {
 ```
 
 ### Font Size
-#### Can be used withe the `font-size` property, for example:
+#### Can be used with the `font-size` property, for example:
 ```scss
 element {
   font-size: var(--fw-text-2xl); // 1.5rem
