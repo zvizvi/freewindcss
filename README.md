@@ -371,228 +371,228 @@ element {
 <summary>Show/Hide</summary>
 
 ```clojure
---fw-black: rgb(0 0 0);             // rgb(0 0 0)
---fw-white: rgb(255 255 255);       // rgb(255 255 255)
---fw-slate-50: rgb(248 250 252);    // rgb(248 250 252)
---fw-slate-100: rgb(241 245 249);   // rgb(241 245 249)
---fw-slate-200: rgb(226 232 240);   // rgb(226 232 240)
---fw-slate-300: rgb(203 213 225);   // rgb(203 213 225)
---fw-slate-400: rgb(148 163 184);   // rgb(148 163 184)
---fw-slate-500: rgb(100 116 139);   // rgb(100 116 139)
---fw-slate-600: rgb(71 85 105);     // rgb(71 85 105)
---fw-slate-700: rgb(51 65 85);      // rgb(51 65 85)
---fw-slate-800: rgb(30 41 59);      // rgb(30 41 59)
---fw-slate-900: rgb(15 23 42);      // rgb(15 23 42)
---fw-gray-50: rgb(249 250 251);     // rgb(249 250 251)
---fw-gray-100: rgb(243 244 246);    // rgb(243 244 246)
---fw-gray-200: rgb(229 231 235);    // rgb(229 231 235)
---fw-gray-300: rgb(209 213 219);    // rgb(209 213 219)
---fw-gray-400: rgb(156 163 175);    // rgb(156 163 175)
---fw-gray-500: rgb(107 114 128);    // rgb(107 114 128)
---fw-gray-600: rgb(75 85 99);       // rgb(75 85 99)
---fw-gray-700: rgb(55 65 81);       // rgb(55 65 81)
---fw-gray-800: rgb(31 41 55);       // rgb(31 41 55)
---fw-gray-900: rgb(17 24 39);       // rgb(17 24 39)
---fw-zinc-50: rgb(250 250 250);     // rgb(250 250 250)
---fw-zinc-100: rgb(244 244 245);    // rgb(244 244 245)
---fw-zinc-200: rgb(228 228 231);    // rgb(228 228 231)
---fw-zinc-300: rgb(212 212 216);    // rgb(212 212 216)
---fw-zinc-400: rgb(161 161 170);    // rgb(161 161 170)
---fw-zinc-500: rgb(113 113 122);    // rgb(113 113 122)
---fw-zinc-600: rgb(82 82 91);       // rgb(82 82 91)
---fw-zinc-700: rgb(63 63 70);       // rgb(63 63 70)
---fw-zinc-800: rgb(39 39 42);       // rgb(39 39 42)
---fw-zinc-900: rgb(24 24 27);       // rgb(24 24 27)
---fw-neutral-50: rgb(250 250 250);  // rgb(250 250 250)
---fw-neutral-100: rgb(245 245 245); // rgb(245 245 245)
---fw-neutral-200: rgb(229 229 229); // rgb(229 229 229)
---fw-neutral-300: rgb(212 212 212); // rgb(212 212 212)
---fw-neutral-400: rgb(163 163 163); // rgb(163 163 163)
---fw-neutral-500: rgb(115 115 115); // rgb(115 115 115)
---fw-neutral-600: rgb(82 82 82);    // rgb(82 82 82)
---fw-neutral-700: rgb(64 64 64);    // rgb(64 64 64)
---fw-neutral-800: rgb(38 38 38);    // rgb(38 38 38)
---fw-neutral-900: rgb(23 23 23);    // rgb(23 23 23)
---fw-stone-50: rgb(250 250 249);    // rgb(250 250 249)
---fw-stone-100: rgb(245 245 244);   // rgb(245 245 244)
---fw-stone-200: rgb(231 229 228);   // rgb(231 229 228)
---fw-stone-300: rgb(214 211 209);   // rgb(214 211 209)
---fw-stone-400: rgb(168 162 158);   // rgb(168 162 158)
---fw-stone-500: rgb(120 113 108);   // rgb(120 113 108)
---fw-stone-600: rgb(87 83 78);      // rgb(87 83 78)
---fw-stone-700: rgb(68 64 60);      // rgb(68 64 60)
---fw-stone-800: rgb(41 37 36);      // rgb(41 37 36)
---fw-stone-900: rgb(28 25 23);      // rgb(28 25 23)
---fw-red-50: rgb(254 242 242);      // rgb(254 242 242)
---fw-red-100: rgb(254 226 226);     // rgb(254 226 226)
---fw-red-200: rgb(254 202 202);     // rgb(254 202 202)
---fw-red-300: rgb(252 165 165);     // rgb(252 165 165)
---fw-red-400: rgb(248 113 113);     // rgb(248 113 113)
---fw-red-500: rgb(239 68 68);       // rgb(239 68 68)
---fw-red-600: rgb(220 38 38);       // rgb(220 38 38)
---fw-red-700: rgb(185 28 28);       // rgb(185 28 28)
---fw-red-800: rgb(153 27 27);       // rgb(153 27 27)
---fw-red-900: rgb(127 29 29);       // rgb(127 29 29)
---fw-orange-50: rgb(255 247 237);   // rgb(255 247 237)
---fw-orange-100: rgb(255 237 213);  // rgb(255 237 213)
---fw-orange-200: rgb(254 215 170);  // rgb(254 215 170)
---fw-orange-300: rgb(253 186 116);  // rgb(253 186 116)
---fw-orange-400: rgb(251 146 60);   // rgb(251 146 60)
---fw-orange-500: rgb(249 115 22);   // rgb(249 115 22)
---fw-orange-600: rgb(234 88 12);    // rgb(234 88 12)
---fw-orange-700: rgb(194 65 12);    // rgb(194 65 12)
---fw-orange-800: rgb(154 52 18);    // rgb(154 52 18)
---fw-orange-900: rgb(124 45 18);    // rgb(124 45 18)
---fw-amber-50: rgb(255 251 235);    // rgb(255 251 235)
---fw-amber-100: rgb(254 243 199);   // rgb(254 243 199)
---fw-amber-200: rgb(253 230 138);   // rgb(253 230 138)
---fw-amber-300: rgb(252 211 77);    // rgb(252 211 77)
---fw-amber-400: rgb(251 191 36);    // rgb(251 191 36)
---fw-amber-500: rgb(245 158 11);    // rgb(245 158 11)
---fw-amber-600: rgb(217 119 6);     // rgb(217 119 6)
---fw-amber-700: rgb(180 83 9);      // rgb(180 83 9)
---fw-amber-800: rgb(146 64 14);     // rgb(146 64 14)
---fw-amber-900: rgb(120 53 15);     // rgb(120 53 15)
---fw-yellow-50: rgb(254 252 232);   // rgb(254 252 232)
---fw-yellow-100: rgb(254 249 195);  // rgb(254 249 195)
---fw-yellow-200: rgb(254 240 138);  // rgb(254 240 138)
---fw-yellow-300: rgb(253 224 71);   // rgb(253 224 71)
---fw-yellow-400: rgb(250 204 21);   // rgb(250 204 21)
---fw-yellow-500: rgb(234 179 8);    // rgb(234 179 8)
---fw-yellow-600: rgb(202 138 4);    // rgb(202 138 4)
---fw-yellow-700: rgb(161 98 7);     // rgb(161 98 7)
---fw-yellow-800: rgb(133 77 14);    // rgb(133 77 14)
---fw-yellow-900: rgb(113 63 18);    // rgb(113 63 18)
---fw-lime-50: rgb(247 254 231);     // rgb(247 254 231)
---fw-lime-100: rgb(236 252 203);    // rgb(236 252 203)
---fw-lime-200: rgb(217 249 157);    // rgb(217 249 157)
---fw-lime-300: rgb(190 242 100);    // rgb(190 242 100)
---fw-lime-400: rgb(163 230 53);     // rgb(163 230 53)
---fw-lime-500: rgb(132 204 22);     // rgb(132 204 22)
---fw-lime-600: rgb(101 163 13);     // rgb(101 163 13)
---fw-lime-700: rgb(77 124 15);      // rgb(77 124 15)
---fw-lime-800: rgb(63 98 18);       // rgb(63 98 18)
---fw-lime-900: rgb(54 83 20);       // rgb(54 83 20)
---fw-green-50: rgb(240 253 244);    // rgb(240 253 244)
---fw-green-100: rgb(220 252 231);   // rgb(220 252 231)
---fw-green-200: rgb(187 247 208);   // rgb(187 247 208)
---fw-green-300: rgb(134 239 172);   // rgb(134 239 172)
---fw-green-400: rgb(74 222 128);    // rgb(74 222 128)
---fw-green-500: rgb(34 197 94);     // rgb(34 197 94)
---fw-green-600: rgb(22 163 74);     // rgb(22 163 74)
---fw-green-700: rgb(21 128 61);     // rgb(21 128 61)
---fw-green-800: rgb(22 101 52);     // rgb(22 101 52)
---fw-green-900: rgb(20 83 45);      // rgb(20 83 45)
---fw-emerald-50: rgb(236 253 245);  // rgb(236 253 245)
---fw-emerald-100: rgb(209 250 229); // rgb(209 250 229)
---fw-emerald-200: rgb(167 243 208); // rgb(167 243 208)
---fw-emerald-300: rgb(110 231 183); // rgb(110 231 183)
---fw-emerald-400: rgb(52 211 153);  // rgb(52 211 153)
---fw-emerald-500: rgb(16 185 129);  // rgb(16 185 129)
---fw-emerald-600: rgb(5 150 105);   // rgb(5 150 105)
---fw-emerald-700: rgb(4 120 87);    // rgb(4 120 87)
---fw-emerald-800: rgb(6 95 70);     // rgb(6 95 70)
---fw-emerald-900: rgb(6 78 59);     // rgb(6 78 59)
---fw-teal-50: rgb(240 253 250);     // rgb(240 253 250)
---fw-teal-100: rgb(204 251 241);    // rgb(204 251 241)
---fw-teal-200: rgb(153 246 228);    // rgb(153 246 228)
---fw-teal-300: rgb(94 234 212);     // rgb(94 234 212)
---fw-teal-400: rgb(45 212 191);     // rgb(45 212 191)
---fw-teal-500: rgb(20 184 166);     // rgb(20 184 166)
---fw-teal-600: rgb(13 148 136);     // rgb(13 148 136)
---fw-teal-700: rgb(15 118 110);     // rgb(15 118 110)
---fw-teal-800: rgb(17 94 89);       // rgb(17 94 89)
---fw-teal-900: rgb(19 78 74);       // rgb(19 78 74)
---fw-cyan-50: rgb(236 254 255);     // rgb(236 254 255)
---fw-cyan-100: rgb(207 250 254);    // rgb(207 250 254)
---fw-cyan-200: rgb(165 243 252);    // rgb(165 243 252)
---fw-cyan-300: rgb(103 232 249);    // rgb(103 232 249)
---fw-cyan-400: rgb(34 211 238);     // rgb(34 211 238)
---fw-cyan-500: rgb(6 182 212);      // rgb(6 182 212)
---fw-cyan-600: rgb(8 145 178);      // rgb(8 145 178)
---fw-cyan-700: rgb(14 116 144);     // rgb(14 116 144)
---fw-cyan-800: rgb(21 94 117);      // rgb(21 94 117)
---fw-cyan-900: rgb(22 78 99);       // rgb(22 78 99)
---fw-sky-50: rgb(240 249 255);      // rgb(240 249 255)
---fw-sky-100: rgb(224 242 254);     // rgb(224 242 254)
---fw-sky-200: rgb(186 230 253);     // rgb(186 230 253)
---fw-sky-300: rgb(125 211 252);     // rgb(125 211 252)
---fw-sky-400: rgb(56 189 248);      // rgb(56 189 248)
---fw-sky-500: rgb(14 165 233);      // rgb(14 165 233)
---fw-sky-600: rgb(2 132 199);       // rgb(2 132 199)
---fw-sky-700: rgb(3 105 161);       // rgb(3 105 161)
---fw-sky-800: rgb(7 89 133);        // rgb(7 89 133)
---fw-sky-900: rgb(12 74 110);       // rgb(12 74 110)
---fw-blue-50: rgb(239 246 255);     // rgb(239 246 255)
---fw-blue-100: rgb(219 234 254);    // rgb(219 234 254)
---fw-blue-200: rgb(191 219 254);    // rgb(191 219 254)
---fw-blue-300: rgb(147 197 253);    // rgb(147 197 253)
---fw-blue-400: rgb(96 165 250);     // rgb(96 165 250)
---fw-blue-500: rgb(59 130 246);     // rgb(59 130 246)
---fw-blue-600: rgb(37 99 235);      // rgb(37 99 235)
---fw-blue-700: rgb(29 78 216);      // rgb(29 78 216)
---fw-blue-800: rgb(30 64 175);      // rgb(30 64 175)
---fw-blue-900: rgb(30 58 138);      // rgb(30 58 138)
---fw-indigo-50: rgb(238 242 255);   // rgb(238 242 255)
---fw-indigo-100: rgb(224 231 255);  // rgb(224 231 255)
---fw-indigo-200: rgb(199 210 254);  // rgb(199 210 254)
---fw-indigo-300: rgb(165 180 252);  // rgb(165 180 252)
---fw-indigo-400: rgb(129 140 248);  // rgb(129 140 248)
---fw-indigo-500: rgb(99 102 241);   // rgb(99 102 241)
---fw-indigo-600: rgb(79 70 229);    // rgb(79 70 229)
---fw-indigo-700: rgb(67 56 202);    // rgb(67 56 202)
---fw-indigo-800: rgb(55 48 163);    // rgb(55 48 163)
---fw-indigo-900: rgb(49 46 129);    // rgb(49 46 129)
---fw-violet-50: rgb(245 243 255);   // rgb(245 243 255)
---fw-violet-100: rgb(237 233 254);  // rgb(237 233 254)
---fw-violet-200: rgb(221 214 254);  // rgb(221 214 254)
---fw-violet-300: rgb(196 181 253);  // rgb(196 181 253)
---fw-violet-400: rgb(167 139 250);  // rgb(167 139 250)
---fw-violet-500: rgb(139 92 246);   // rgb(139 92 246)
---fw-violet-600: rgb(124 58 237);   // rgb(124 58 237)
---fw-violet-700: rgb(109 40 217);   // rgb(109 40 217)
---fw-violet-800: rgb(91 33 182);    // rgb(91 33 182)
---fw-violet-900: rgb(76 29 149);    // rgb(76 29 149)
---fw-purple-50: rgb(250 245 255);   // rgb(250 245 255)
---fw-purple-100: rgb(243 232 255);  // rgb(243 232 255)
---fw-purple-200: rgb(233 213 255);  // rgb(233 213 255)
---fw-purple-300: rgb(216 180 254);  // rgb(216 180 254)
---fw-purple-400: rgb(192 132 252);  // rgb(192 132 252)
---fw-purple-500: rgb(168 85 247);   // rgb(168 85 247)
---fw-purple-600: rgb(147 51 234);   // rgb(147 51 234)
---fw-purple-700: rgb(126 34 206);   // rgb(126 34 206)
---fw-purple-800: rgb(107 33 168);   // rgb(107 33 168)
---fw-purple-900: rgb(88 28 135);    // rgb(88 28 135)
---fw-fuchsia-50: rgb(253 244 255);  // rgb(253 244 255)
---fw-fuchsia-100: rgb(250 232 255); // rgb(250 232 255)
---fw-fuchsia-200: rgb(245 208 254); // rgb(245 208 254)
---fw-fuchsia-300: rgb(240 171 252); // rgb(240 171 252)
---fw-fuchsia-400: rgb(232 121 249); // rgb(232 121 249)
---fw-fuchsia-500: rgb(217 70 239);  // rgb(217 70 239)
---fw-fuchsia-600: rgb(192 38 211);  // rgb(192 38 211)
---fw-fuchsia-700: rgb(162 28 175);  // rgb(162 28 175)
---fw-fuchsia-800: rgb(134 25 143);  // rgb(134 25 143)
---fw-fuchsia-900: rgb(112 26 117);  // rgb(112 26 117)
---fw-pink-50: rgb(253 242 248);     // rgb(253 242 248)
---fw-pink-100: rgb(252 231 243);    // rgb(252 231 243)
---fw-pink-200: rgb(251 207 232);    // rgb(251 207 232)
---fw-pink-300: rgb(249 168 212);    // rgb(249 168 212)
---fw-pink-400: rgb(244 114 182);    // rgb(244 114 182)
---fw-pink-500: rgb(236 72 153);     // rgb(236 72 153)
---fw-pink-600: rgb(219 39 119);     // rgb(219 39 119)
---fw-pink-700: rgb(190 24 93);      // rgb(190 24 93)
---fw-pink-800: rgb(157 23 77);      // rgb(157 23 77)
---fw-pink-900: rgb(131 24 67);      // rgb(131 24 67)
---fw-rose-50: rgb(255 241 242);     // rgb(255 241 242)
---fw-rose-100: rgb(255 228 230);    // rgb(255 228 230)
---fw-rose-200: rgb(254 205 211);    // rgb(254 205 211)
---fw-rose-300: rgb(253 164 175);    // rgb(253 164 175)
---fw-rose-400: rgb(251 113 133);    // rgb(251 113 133)
---fw-rose-500: rgb(244 63 94);      // rgb(244 63 94)
---fw-rose-600: rgb(225 29 72);      // rgb(225 29 72)
---fw-rose-700: rgb(190 18 60);      // rgb(190 18 60)
---fw-rose-800: rgb(159 18 57);      // rgb(159 18 57)
---fw-rose-900: rgb(136 19 55);      // rgb(136 19 55)
+--fw-black: rgb(0 0 0);             // #000000
+--fw-white: rgb(255 255 255);       // #ffffff
+--fw-slate-50: rgb(248 250 252);    // #f8fafc
+--fw-slate-100: rgb(241 245 249);   // #f1f5f9
+--fw-slate-200: rgb(226 232 240);   // #e2e8f0
+--fw-slate-300: rgb(203 213 225);   // #cbd5e1
+--fw-slate-400: rgb(148 163 184);   // #94a3b8
+--fw-slate-500: rgb(100 116 139);   // #64748b
+--fw-slate-600: rgb(71 85 105);     // #475569
+--fw-slate-700: rgb(51 65 85);      // #334155
+--fw-slate-800: rgb(30 41 59);      // #1e293b
+--fw-slate-900: rgb(15 23 42);      // #0f172a
+--fw-gray-50: rgb(249 250 251);     // #f9fafb
+--fw-gray-100: rgb(243 244 246);    // #f3f4f6
+--fw-gray-200: rgb(229 231 235);    // #e5e7eb
+--fw-gray-300: rgb(209 213 219);    // #d1d5db
+--fw-gray-400: rgb(156 163 175);    // #9ca3af
+--fw-gray-500: rgb(107 114 128);    // #6b7280
+--fw-gray-600: rgb(75 85 99);       // #4b5563
+--fw-gray-700: rgb(55 65 81);       // #374151
+--fw-gray-800: rgb(31 41 55);       // #1f2937
+--fw-gray-900: rgb(17 24 39);       // #111827
+--fw-zinc-50: rgb(250 250 250);     // #fafafa
+--fw-zinc-100: rgb(244 244 245);    // #f4f4f5
+--fw-zinc-200: rgb(228 228 231);    // #e4e4e7
+--fw-zinc-300: rgb(212 212 216);    // #d4d4d8
+--fw-zinc-400: rgb(161 161 170);    // #a1a1aa
+--fw-zinc-500: rgb(113 113 122);    // #71717a
+--fw-zinc-600: rgb(82 82 91);       // #52525b
+--fw-zinc-700: rgb(63 63 70);       // #3f3f46
+--fw-zinc-800: rgb(39 39 42);       // #27272a
+--fw-zinc-900: rgb(24 24 27);       // #18181b
+--fw-neutral-50: rgb(250 250 250);  // #fafafa
+--fw-neutral-100: rgb(245 245 245); // #f5f5f5
+--fw-neutral-200: rgb(229 229 229); // #e5e5e5
+--fw-neutral-300: rgb(212 212 212); // #d4d4d4
+--fw-neutral-400: rgb(163 163 163); // #a3a3a3
+--fw-neutral-500: rgb(115 115 115); // #737373
+--fw-neutral-600: rgb(82 82 82);    // #525252
+--fw-neutral-700: rgb(64 64 64);    // #404040
+--fw-neutral-800: rgb(38 38 38);    // #262626
+--fw-neutral-900: rgb(23 23 23);    // #171717
+--fw-stone-50: rgb(250 250 249);    // #fafaf9
+--fw-stone-100: rgb(245 245 244);   // #f5f5f4
+--fw-stone-200: rgb(231 229 228);   // #e7e5e4
+--fw-stone-300: rgb(214 211 209);   // #d6d3d1
+--fw-stone-400: rgb(168 162 158);   // #a8a29e
+--fw-stone-500: rgb(120 113 108);   // #78716c
+--fw-stone-600: rgb(87 83 78);      // #57534e
+--fw-stone-700: rgb(68 64 60);      // #44403c
+--fw-stone-800: rgb(41 37 36);      // #292524
+--fw-stone-900: rgb(28 25 23);      // #1c1917
+--fw-red-50: rgb(254 242 242);      // #fef2f2
+--fw-red-100: rgb(254 226 226);     // #fee2e2
+--fw-red-200: rgb(254 202 202);     // #fecaca
+--fw-red-300: rgb(252 165 165);     // #fca5a5
+--fw-red-400: rgb(248 113 113);     // #f87171
+--fw-red-500: rgb(239 68 68);       // #ef4444
+--fw-red-600: rgb(220 38 38);       // #dc2626
+--fw-red-700: rgb(185 28 28);       // #b91c1c
+--fw-red-800: rgb(153 27 27);       // #991b1b
+--fw-red-900: rgb(127 29 29);       // #7f1d1d
+--fw-orange-50: rgb(255 247 237);   // #fff7ed
+--fw-orange-100: rgb(255 237 213);  // #ffedd5
+--fw-orange-200: rgb(254 215 170);  // #fed7aa
+--fw-orange-300: rgb(253 186 116);  // #fdba74
+--fw-orange-400: rgb(251 146 60);   // #fb923c
+--fw-orange-500: rgb(249 115 22);   // #f97316
+--fw-orange-600: rgb(234 88 12);    // #ea580c
+--fw-orange-700: rgb(194 65 12);    // #c2410c
+--fw-orange-800: rgb(154 52 18);    // #9a3412
+--fw-orange-900: rgb(124 45 18);    // #7c2d12
+--fw-amber-50: rgb(255 251 235);    // #fffbeb
+--fw-amber-100: rgb(254 243 199);   // #fef3c7
+--fw-amber-200: rgb(253 230 138);   // #fde68a
+--fw-amber-300: rgb(252 211 77);    // #fcd34d
+--fw-amber-400: rgb(251 191 36);    // #fbbf24
+--fw-amber-500: rgb(245 158 11);    // #f59e0b
+--fw-amber-600: rgb(217 119 6);     // #d97706
+--fw-amber-700: rgb(180 83 9);      // #b45309
+--fw-amber-800: rgb(146 64 14);     // #92400e
+--fw-amber-900: rgb(120 53 15);     // #78350f
+--fw-yellow-50: rgb(254 252 232);   // #fefce8
+--fw-yellow-100: rgb(254 249 195);  // #fef9c3
+--fw-yellow-200: rgb(254 240 138);  // #fef08a
+--fw-yellow-300: rgb(253 224 71);   // #fde047
+--fw-yellow-400: rgb(250 204 21);   // #facc15
+--fw-yellow-500: rgb(234 179 8);    // #eab308
+--fw-yellow-600: rgb(202 138 4);    // #ca8a04
+--fw-yellow-700: rgb(161 98 7);     // #a16207
+--fw-yellow-800: rgb(133 77 14);    // #854d0e
+--fw-yellow-900: rgb(113 63 18);    // #713f12
+--fw-lime-50: rgb(247 254 231);     // #f7fee7
+--fw-lime-100: rgb(236 252 203);    // #ecfccb
+--fw-lime-200: rgb(217 249 157);    // #d9f99d
+--fw-lime-300: rgb(190 242 100);    // #bef264
+--fw-lime-400: rgb(163 230 53);     // #a3e635
+--fw-lime-500: rgb(132 204 22);     // #84cc16
+--fw-lime-600: rgb(101 163 13);     // #65a30d
+--fw-lime-700: rgb(77 124 15);      // #4d7c0f
+--fw-lime-800: rgb(63 98 18);       // #3f6212
+--fw-lime-900: rgb(54 83 20);       // #365314
+--fw-green-50: rgb(240 253 244);    // #f0fdf4
+--fw-green-100: rgb(220 252 231);   // #dcfce7
+--fw-green-200: rgb(187 247 208);   // #bbf7d0
+--fw-green-300: rgb(134 239 172);   // #86efac
+--fw-green-400: rgb(74 222 128);    // #4ade80
+--fw-green-500: rgb(34 197 94);     // #22c55e
+--fw-green-600: rgb(22 163 74);     // #16a34a
+--fw-green-700: rgb(21 128 61);     // #15803d
+--fw-green-800: rgb(22 101 52);     // #166534
+--fw-green-900: rgb(20 83 45);      // #14532d
+--fw-emerald-50: rgb(236 253 245);  // #ecfdf5
+--fw-emerald-100: rgb(209 250 229); // #d1fae5
+--fw-emerald-200: rgb(167 243 208); // #a7f3d0
+--fw-emerald-300: rgb(110 231 183); // #6ee7b7
+--fw-emerald-400: rgb(52 211 153);  // #34d399
+--fw-emerald-500: rgb(16 185 129);  // #10b981
+--fw-emerald-600: rgb(5 150 105);   // #059669
+--fw-emerald-700: rgb(4 120 87);    // #047857
+--fw-emerald-800: rgb(6 95 70);     // #065f46
+--fw-emerald-900: rgb(6 78 59);     // #064e3b
+--fw-teal-50: rgb(240 253 250);     // #f0fdfa
+--fw-teal-100: rgb(204 251 241);    // #ccfbf1
+--fw-teal-200: rgb(153 246 228);    // #99f6e4
+--fw-teal-300: rgb(94 234 212);     // #5eead4
+--fw-teal-400: rgb(45 212 191);     // #2dd4bf
+--fw-teal-500: rgb(20 184 166);     // #14b8a6
+--fw-teal-600: rgb(13 148 136);     // #0d9488
+--fw-teal-700: rgb(15 118 110);     // #0f766e
+--fw-teal-800: rgb(17 94 89);       // #115e59
+--fw-teal-900: rgb(19 78 74);       // #134e4a
+--fw-cyan-50: rgb(236 254 255);     // #ecfeff
+--fw-cyan-100: rgb(207 250 254);    // #cffafe
+--fw-cyan-200: rgb(165 243 252);    // #a5f3fc
+--fw-cyan-300: rgb(103 232 249);    // #67e8f9
+--fw-cyan-400: rgb(34 211 238);     // #22d3ee
+--fw-cyan-500: rgb(6 182 212);      // #06b6d4
+--fw-cyan-600: rgb(8 145 178);      // #0891b2
+--fw-cyan-700: rgb(14 116 144);     // #0e7490
+--fw-cyan-800: rgb(21 94 117);      // #155e75
+--fw-cyan-900: rgb(22 78 99);       // #164e63
+--fw-sky-50: rgb(240 249 255);      // #f0f9ff
+--fw-sky-100: rgb(224 242 254);     // #e0f2fe
+--fw-sky-200: rgb(186 230 253);     // #bae6fd
+--fw-sky-300: rgb(125 211 252);     // #7dd3fc
+--fw-sky-400: rgb(56 189 248);      // #38bdf8
+--fw-sky-500: rgb(14 165 233);      // #0ea5e9
+--fw-sky-600: rgb(2 132 199);       // #0284c7
+--fw-sky-700: rgb(3 105 161);       // #0369a1
+--fw-sky-800: rgb(7 89 133);        // #075985
+--fw-sky-900: rgb(12 74 110);       // #0c4a6e
+--fw-blue-50: rgb(239 246 255);     // #eff6ff
+--fw-blue-100: rgb(219 234 254);    // #dbeafe
+--fw-blue-200: rgb(191 219 254);    // #bfdbfe
+--fw-blue-300: rgb(147 197 253);    // #93c5fd
+--fw-blue-400: rgb(96 165 250);     // #60a5fa
+--fw-blue-500: rgb(59 130 246);     // #3b82f6
+--fw-blue-600: rgb(37 99 235);      // #2563eb
+--fw-blue-700: rgb(29 78 216);      // #1d4ed8
+--fw-blue-800: rgb(30 64 175);      // #1e40af
+--fw-blue-900: rgb(30 58 138);      // #1e3a8a
+--fw-indigo-50: rgb(238 242 255);   // #eef2ff
+--fw-indigo-100: rgb(224 231 255);  // #e0e7ff
+--fw-indigo-200: rgb(199 210 254);  // #c7d2fe
+--fw-indigo-300: rgb(165 180 252);  // #a5b4fc
+--fw-indigo-400: rgb(129 140 248);  // #818cf8
+--fw-indigo-500: rgb(99 102 241);   // #6366f1
+--fw-indigo-600: rgb(79 70 229);    // #4f46e5
+--fw-indigo-700: rgb(67 56 202);    // #4338ca
+--fw-indigo-800: rgb(55 48 163);    // #3730a3
+--fw-indigo-900: rgb(49 46 129);    // #312e81
+--fw-violet-50: rgb(245 243 255);   // #f5f3ff
+--fw-violet-100: rgb(237 233 254);  // #ede9fe
+--fw-violet-200: rgb(221 214 254);  // #ddd6fe
+--fw-violet-300: rgb(196 181 253);  // #c4b5fd
+--fw-violet-400: rgb(167 139 250);  // #a78bfa
+--fw-violet-500: rgb(139 92 246);   // #8b5cf6
+--fw-violet-600: rgb(124 58 237);   // #7c3aed
+--fw-violet-700: rgb(109 40 217);   // #6d28d9
+--fw-violet-800: rgb(91 33 182);    // #5b21b6
+--fw-violet-900: rgb(76 29 149);    // #4c1d95
+--fw-purple-50: rgb(250 245 255);   // #faf5ff
+--fw-purple-100: rgb(243 232 255);  // #f3e8ff
+--fw-purple-200: rgb(233 213 255);  // #e9d5ff
+--fw-purple-300: rgb(216 180 254);  // #d8b4fe
+--fw-purple-400: rgb(192 132 252);  // #c084fc
+--fw-purple-500: rgb(168 85 247);   // #a855f7
+--fw-purple-600: rgb(147 51 234);   // #9333ea
+--fw-purple-700: rgb(126 34 206);   // #7e22ce
+--fw-purple-800: rgb(107 33 168);   // #6b21a8
+--fw-purple-900: rgb(88 28 135);    // #581c87
+--fw-fuchsia-50: rgb(253 244 255);  // #fdf4ff
+--fw-fuchsia-100: rgb(250 232 255); // #fae8ff
+--fw-fuchsia-200: rgb(245 208 254); // #f5d0fe
+--fw-fuchsia-300: rgb(240 171 252); // #f0abfc
+--fw-fuchsia-400: rgb(232 121 249); // #e879f9
+--fw-fuchsia-500: rgb(217 70 239);  // #d946ef
+--fw-fuchsia-600: rgb(192 38 211);  // #c026d3
+--fw-fuchsia-700: rgb(162 28 175);  // #a21caf
+--fw-fuchsia-800: rgb(134 25 143);  // #86198f
+--fw-fuchsia-900: rgb(112 26 117);  // #701a75
+--fw-pink-50: rgb(253 242 248);     // #fdf2f8
+--fw-pink-100: rgb(252 231 243);    // #fce7f3
+--fw-pink-200: rgb(251 207 232);    // #fbcfe8
+--fw-pink-300: rgb(249 168 212);    // #f9a8d4
+--fw-pink-400: rgb(244 114 182);    // #f472b6
+--fw-pink-500: rgb(236 72 153);     // #ec4899
+--fw-pink-600: rgb(219 39 119);     // #db2777
+--fw-pink-700: rgb(190 24 93);      // #be185d
+--fw-pink-800: rgb(157 23 77);      // #9d174d
+--fw-pink-900: rgb(131 24 67);      // #831843
+--fw-rose-50: rgb(255 241 242);     // #fff1f2
+--fw-rose-100: rgb(255 228 230);    // #ffe4e6
+--fw-rose-200: rgb(254 205 211);    // #fecdd3
+--fw-rose-300: rgb(253 164 175);    // #fda4af
+--fw-rose-400: rgb(251 113 133);    // #fb7185
+--fw-rose-500: rgb(244 63 94);      // #f43f5e
+--fw-rose-600: rgb(225 29 72);      // #e11d48
+--fw-rose-700: rgb(190 18 60);      // #be123c
+--fw-rose-800: rgb(159 18 57);      // #9f1239
+--fw-rose-900: rgb(136 19 55);      // #881337
 ```
 </details>
 
