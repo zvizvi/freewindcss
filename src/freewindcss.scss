@@ -1,4 +1,4 @@
-// Freewindcss v0.0.10
+// Freewindcss v0.0.12
 // https://github.com/zvizvi/freewindcss#readme
 //
 // Copyright (c) 2022 zvizvi
@@ -441,16 +441,16 @@
   /* container width */
   --fw-container-width: 1280px;
 
-  @media (max-width: 640px) {
-    --fw-container-width: 640px;
+  @media (max-width: 1024px) {
+    --fw-container-width: 1024px;
   }
 
   @media (max-width: 768px) {
     --fw-container-width: 768px;
   }
 
-  @media (max-width: 1024px) {
-    --fw-container-width: 1024px;
+  @media (max-width: 640px) {
+    --fw-container-width: 640px;
   }
 }
 
