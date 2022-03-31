@@ -1,4 +1,4 @@
-# Freewind CSS
+# 🍃 Freewind CSS
 
 Use Tailwind's set values and units without installing Tailwind.
 
