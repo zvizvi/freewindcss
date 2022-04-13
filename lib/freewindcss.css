@@ -1,5 +1,5 @@
 /*!
-  * Freewindcss v0.0.12
+  * Freewindcss v0.0.13
   * https://github.com/zvizvi/freewindcss#readme
   *
   * Copyright (c) 2022 zvizvi
@@ -193,6 +193,31 @@
   --fw-columns-5xl: 64rem;
   --fw-columns-6xl: 72rem;
   --fw-columns-7xl: 80rem;
+  /* animation */
+  --fw-animation-spin: fw-spin 1s linear infinite;
+  --fw-animation-ping: fw-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+  --fw-animation-pulse: fw-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --fw-animation-bounce: fw-bounce 1s infinite;
+  /* container width */
+  --fw-container-width: 1280px;
+}
+@media (max-width: 1024px) {
+  :root {
+    --fw-container-width: 1024px;
+  }
+}
+@media (max-width: 768px) {
+  :root {
+    --fw-container-width: 768px;
+  }
+}
+@media (max-width: 640px) {
+  :root {
+    --fw-container-width: 640px;
+  }
+}
+
+* {
   /* colors */
   --fw-color-opacity: 1;
   --fw-black: rgb(0 0 0 / var(--fw-color-opacity));
@@ -417,28 +442,6 @@
   --fw-rose-700: rgb(190 18 60 / var(--fw-color-opacity));
   --fw-rose-800: rgb(159 18 57 / var(--fw-color-opacity));
   --fw-rose-900: rgb(136 19 55 / var(--fw-color-opacity));
-  /* animation */
-  --fw-animation-spin: fw-spin 1s linear infinite;
-  --fw-animation-ping: fw-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
-  --fw-animation-pulse: fw-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-  --fw-animation-bounce: fw-bounce 1s infinite;
-  /* container width */
-  --fw-container-width: 1280px;
-}
-@media (max-width: 1024px) {
-  :root {
-    --fw-container-width: 1024px;
-  }
-}
-@media (max-width: 768px) {
-  :root {
-    --fw-container-width: 768px;
-  }
-}
-@media (max-width: 640px) {
-  :root {
-    --fw-container-width: 640px;
-  }
 }
 
 @keyframes fw-spin {
