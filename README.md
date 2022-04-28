@@ -73,10 +73,8 @@ element {
 }
 ```
 
-#### Variables
-
 <details open>
-<summary>Show/Hide</summary>
+<summary>Variables</summary>
 
 ```css
 --fw-auto: auto;        // auto
@@ -136,12 +134,15 @@ element {
 }
 ```
 
-#### Variables
+<details open>
+<summary>Variables</summary>
+
 ```scss
 --fw-font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 --fw-font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 --fw-font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 ```
+</details>
 
 ### Font Size
 #### Can be used with the `font-size` property, for example:
@@ -151,7 +152,9 @@ element {
 }
 ```
 
-#### Variables
+<details open>
+<summary>Variables</summary>
+
 ```scss
 --fw-text-xs: 0.75rem;
 --fw-text-sm: 0.875rem;
@@ -164,6 +167,7 @@ element {
 --fw-text-5xl: 3rem;
 --fw-text-6xl: 4rem;
 ```
+</details>
 
 ### Font Weight
 #### For example:
@@ -173,7 +177,9 @@ element {
 }
 ```
 
-#### Variables
+<details open>
+<summary>Variables</summary>
+
 ```scss
 --fw-font-thin: 100;
 --fw-font-extralight: 200;
@@ -185,6 +191,7 @@ element {
 --fw-font-extrabold: 800;
 --fw-font-black: 900;
 ```
+</details>
 
 ### Letter Spacing
 #### Using with `letter-spacing` property, for example:
@@ -194,7 +201,9 @@ element {
 }
 ```
 
-#### Variables
+<details open>
+<summary>Variables</summary>
+
 ```scss
 --fw-tracking-tighter: -0.05em;
 --fw-tracking-tight: -0.025em;
@@ -203,6 +212,7 @@ element {
 --fw-tracking-wider: 0.05em;
 --fw-tracking-widest: 0.1em;
 ```
+</details>
 
 ### Line Height
 #### Used with `line-height` property, for example:
@@ -212,7 +222,9 @@ element {
 }
 ```
 
-#### Variables
+<details open>
+<summary>Variables</summary>
+
 ```scss
 --fw-leading-3: 0.75rem; // 12px
 --fw-leading-4: 1rem;    // 16px
@@ -229,6 +241,7 @@ element {
 --fw-leading-relaxed: 1.625;
 --fw-leading-loose: 2;
 ```
+</details>
 
 ### Border Radius
 #### For example:
@@ -238,7 +251,9 @@ element {
 }
 ```
 
-#### Variables
+<details open>
+<summary>Variables</summary>
+
 ```scss
 --fw-rounded-none: 0px;      // 0px
 --fw-rounded-sm: 0.125rem;   // 2px
@@ -250,6 +265,7 @@ element {
 --fw-rounded-3xl: 1.5rem;    // 24px
 --fw-rounded-full: 9999px;   // 9999px
 ```
+</details>
 
 ### Box Shadow
 #### For example:
@@ -259,7 +275,9 @@ element {
 }
 ```
 
-#### Variables
+<details open>
+<summary>Variables</summary>
+
 ```scss
 --fw-shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
 --fw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
@@ -270,6 +288,7 @@ element {
 --fw-shadow-inner: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
 --fw-shadow-none: 0 0 #0000;
 ```
+</details>
 
 ### Blur Filter
 #### Used with `filter: blur(x)` or with `  backdrop-filter: blur(x)`, for example:
@@ -279,7 +298,9 @@ element {
 }
 ```
 
-#### Variables
+<details open>
+<summary>Variables</summary>
+
 ```scss
 --fw-blur-none: blur(0);
 --fw-blur-sm: blur(4px);
@@ -290,6 +311,7 @@ element {
 --fw-blur-2xl: blur(40px);
 --fw-blur-3xl: blur(64px);
 ```
+</details>
 
 ### Drop Shadow
 #### Used with `filter: drop-shadow(x)`, for example:
@@ -299,7 +321,9 @@ element {
 }
 ```
 
-#### Variables
+<details open>
+<summary>Variables</summary>
+
 ```scss
 --fw-drop-shadow-sm: drop-shadow(0 1px 1px rgb(0 0 0 / 0.05));
 --fw-drop-shadow: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06));
@@ -309,6 +333,7 @@ element {
 --fw-drop-shadow-2xl: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
 --fw-drop-shadow-none: drop-shadow(0 0 #0000);
 ```
+</details>
 
 ### Columns
 #### example:
@@ -318,10 +343,8 @@ element {
 }
 ```
 
-#### Variables
-
 <details open>
-<summary>Show/Hide</summary>
+<summary>Variables</summary>
 
 ```scss
 --fw-columns-3xs: 16rem; // 256px
@@ -348,13 +371,16 @@ element {
 }
 ```
 
-#### Variables
+<details open>
+<summary>Variables</summary>
+
 ```scss
 --fw-ease-linear: linear;
 --fw-ease-in: cubic-bezier(0.4, 0, 1, 1);
 --fw-ease-out: cubic-bezier(0, 0, 0.2, 1);
 --fw-ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
 ```
+</details>
 
 ### Colors
 #### example:
@@ -365,10 +391,8 @@ element {
 }
 ```
 
-#### Variables
-
 <details open>
-<summary>Show/Hide</summary>
+<summary>Variables</summary>
 
 ```clojure
 --fw-black: rgb(0 0 0);             // #000000
@@ -604,13 +628,16 @@ element {
 }
 ```
 
-#### Variables
+<details open>
+<summary>Variables</summary>
+
 ```scss
 --fw-animation-spin: fw-spin 1s linear infinite;
 --fw-animation-ping: fw-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
 --fw-animation-pulse: fw-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 --fw-animation-bounce: fw-bounce 1s infinite;
 ```
+</details>
 
 ### Container Width
 #### Can be used with the `width` or `max-width`, for example:
