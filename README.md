@@ -620,11 +620,27 @@ element {
 ```
 </details>
 
+### Colors transparency (alpha)
+#### Use ```--fw-color-opacity``` variable to set the color transparency 
+
+Each color rule in Freewindcss uses the ```--fw-color-opacity``` variable (which is initialized to 1) to determine the transparency of the color. Therefore to apply a color with transparency you have to set the variable ```--fw-color-opacity``` to the desired fraction number.  
+
+Note that the variable ```--fw-color-opacity``` will be applied to the entire defined element, so two Freewindcss color rules cannot be applied to the same element with different transparency.
+
+#### example:
+```scss
+element {
+  --fw-color-opacity: 0.6;
+  color: var(--fw-indigo-500); // rgba(99, 102, 241, 0.6)
+  background-color: var(--fw-lime-300); // rgba(190, 242, 100, 0.6);
+}
+```
+
 ### Animations
 #### example:
 ```scss
 element {
-  animation: var(--fw-animation-pulse); // fw-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  animation: var(--fw-animation-pulse); // fw-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite
 }
 ```
 
