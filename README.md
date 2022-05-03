@@ -57,7 +57,7 @@ yarn add freewindcss
 - [Columns](#columns)
 - [Transition Timing](#transition-timing)
 - [Colors](#colors)
-  - [Colors transparency (alpha)](#color-opacity)
+  - [Colors transparency (alpha)](#colors-transparency-alpha)
 - [Animations](#animations)
 - [Container Width](#container-width)
 </details>
