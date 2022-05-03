@@ -18,6 +18,12 @@ Install with yarn:
 yarn add freewindcss
 ```
 
+Install using a CDN link in your HTML file:
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/freewindcss@latest/lib/freewindcss.min.css">
+```
+
 ## Examples
 
 ```scss
